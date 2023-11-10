@@ -1,0 +1,96 @@
+﻿
+@{
+    ViewBag.Title = "Edit";
+    Layout = "~/Views/Shared/_LayoutPage.cshtml";
+}
+
+<h4>Edit User Role</h4>
+<hr />
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    @Html.Hidden("applicationId", (int)@ViewBag.ApplicationId)
+    
+    <div class="form-horizontal">        
+        @Html.ValidationSummary(true)
+
+        <div class="panel-group">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#userRoleCollapse">
+                            User Role Information
+                        </a>
+                    </h4>
+                </div>
+                
+                <div id="userRoleCollapse" class="panel-collapse collapse in">
+                    <div class="panel-body">
+                        <div class="form-group">
+                            @Html.Label("FirstName:", new { @class = "control-label col-md-2" })
+                            <div class="col-md-3">
+                                @Html.TextBox("firstName", null, new { @class = "form-control", @readonly = true })
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            @Html.Label("LastName:", new { @class = "control-label col-md-2" })
+                            <div class="col-md-3">
+                                @Html.TextBox("lastName", null, new { @class = "form-control", @readonly = true })
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            @Html.Label("UserName:", new { @class = "control-label col-md-2" })
+                            <div class="col-md-3">
+                                @Html.TextBox("userName", null, new { @class = "form-control", @readonly = true })
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            @Html.Label("Email Address:", new { @class = "control-label col-md-2" })
+                            <div class="col-md-3">
+                                <input id="email" name="emailAddress" readonly="readonly" class="form-control" type="email" required placeholder="example@gmail.com" pattern="^[a-zA-Z0-9._+-]+&#64;[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            @Html.Label("Role Name:", new { @class = "control-label col-md-2" })
+                            <div class="col-md-3">
+                                @Html.DropDownList("RoleId", null, "--Select Role--", new { @class = "form-control", @required = true })
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="col-md-offset-2 col-md-10">
+                                <input type="submit" value="Edit" class="btn btn-primary" />
+                                 @*@Html.ActionLink("Create", "Create", null, new { @class = "btn btn-primary"})*@
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index", new { id = @ViewBag.ApplicationId },new {@class = "btn btn-primary"})
+</div>
+
+
+<script type="text/javascript">
+    $(function () {
+        var firstName = '@ViewBag.SystemUser.FirstName';
+        var lastName = '@ViewBag.SystemUser.LastName';
+        var userName = '@ViewBag.SystemUser.UserName';
+        var email = '@ViewBag.SystemUser.EmailAddress';
+
+        $("#firstName").val(firstName);
+        $("#lastName").val(lastName);
+        $("#userName").val(userName);
+        $("#email").val(email);
+    });
+</script>
+

@@ -1,0 +1,392 @@
+﻿@model C8.eServices.Mvc.Models.Incident
+
+@{
+    ViewBag.Title = "IncidentTicket";
+    Layout = "~/Views/Shared/_LayoutPage.cshtml";
+
+}
+
+<head>
+    <link href="~/assets/libs/jsvectormap/css/jsvectormap.min.css" rel="stylesheet" type="text/css" />
+    <link href="~/assets/css/bootstrap.min.css" id="bootstrap-style" rel="stylesheet" type="text/css" />
+    <link href="~/assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+    <link href="~/assets/css/app.min.css" id="app-style" rel="stylesheet" type="text/css" />
+
+
+
+    <link href="~/assets/libs/choices.js/public/assets/styles/choices.min.css" rel="stylesheet" type="text/css" />
+    <link href="~/assets/libs/flatpickr/flatpickr.min.css" rel="stylesheet">
+
+    <!-- One of the following themes -->
+    <link rel="stylesheet" href="~/assets/libs/simonwep/pickr/themes/classic.min.css" /> <!-- 'classic' theme -->
+    <link rel="stylesheet" href="~/assets/libs/simonwep/pickr/themes/monolith.min.css" /> <!-- 'monolith' theme -->
+    <link rel="stylesheet" href="~/assets/libs/simonwep/pickr/themes/nano.min.css" /> <!-- 'nano' theme -->
+    <a href="~/Models/Client.cs">~/Models/Client.cs</a>
+    <!-- Include the flatpickr styles from CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <style>
+        .custom-textarea {
+            width: 100%; /* Set the width to 100% */
+            resize: none; /* Prevent resizing */
+        }
+
+       
+        .tab-content {
+            border: 1px solid #ccc; /* Add border for tab content */
+            padding: 15px; /* Add some padding for content inside the tab */
+        }
+
+        .form-group {
+            margin-bottom: 20px; /* Add space between form groups */
+        }
+
+        .input-group {
+            width: 100%; /* Make the input group take up full width */
+        }
+
+        .input-group-text {
+            min-width: 40px; /* Set minimum width for icon */
+            text-align: center; /* Center the icon */
+        }
+
+        .form-control[disabled] {
+            background-color: #f9f9f9; /* Set background color for disabled inputs */
+        }
+
+        .control-label {
+            font-weight: bold; /* Make labels bold */
+        }
+
+        h4 {
+            font-size: 1.5em; /* Increase font size for section title */
+            margin-bottom: 20px; /* Add space below section title */
+        }
+    </style>
+
+
+   
+</head>
+<body class="card">
+    <h2>LogIncident</h2>
+
+
+    <div class="main-content">
+        <div class="page-content">
+           <div class="container-fluid text-center">
+    <h2 style="color:black">Log Incident</h2>
+
+
+                @using (Html.BeginForm())
+                {
+                    @Html.AntiForgeryToken()
+
+                    <div class="form-horizontal">
+                        <div class="tab-content tab-bordered ">
+                            <h4 style="color:black"> Details</h4>
+                            <hr />
+                            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                        <div class="row col-md-12">
+                            <div class="form-group col-md-6">
+                                @Html.LabelFor(model => model.CapturedByUser, "First Name", htmlAttributes: new { @class = "control-label col-md-4" })
+                                <div class="col-md-12 input-group">
+                                    <span class=" input-group-text material-symbols-outlined">
+                                        person
+                                    </span>
+                                    @Html.Editor("Name", new { htmlAttributes = new { @class = "form-control", @disabled = "disabled" } })
+                                    @Html.ValidationMessageFor(model => model.Subject, "", new { @class = "text-danger" })
+                                </div>
+                            </div>
+
+                            <div class="form-group col-md-6">
+                                @Html.LabelFor(model => model.CapturedByUser, "Last Name", htmlAttributes: new { @class = "control-label col-md-4" })
+                                <div class="col-md-12 input-group">
+                                    <span class=" input-group-text material-symbols-outlined">
+                                        group
+                                    </span>
+                                    @Html.Editor("Surname", new { htmlAttributes = new { @class = "form-control", @disabled = "disabled" } })
+                                    @Html.ValidationMessageFor(model => model.Subject, "", new { @class = "text-danger" })
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="row col-md-12">
+                            <div class="form-group col-md-6">
+                                @Html.LabelFor(model => model.CapturedByUser, "Email Address", htmlAttributes: new { @class = "control-label col-md-4" })
+                                <div class="col-md-12 input-group">
+                                    <span class="input-group-text material-symbols-outlined">
+                                        mail
+                                    </span>
+                                    @Html.Editor("Email", new { htmlAttributes = new { @class = "form-control", @disabled = "disabled" } })
+                                    @Html.ValidationMessageFor(model => model.Subject, "", new { @class = "text-danger" })
+                                </div>
+                            </div>
+
+                            <div class="form-group col-md-6">
+                                @Html.LabelFor(model => model.CapturedByUser, "Mobile Number", htmlAttributes: new { @class = "control-label col-md-4" })
+                                <div class="col-md-12 input-group">
+                                    <span class="input-group-text material-symbols-outlined">call</span>
+                                    @Html.Editor("Mobile", new { htmlAttributes = new { @class = "form-control", @disabled = "disabled" } })
+                                    @Html.ValidationMessageFor(model => model.Subject, "", new { @class = "text-danger" })
+                                </div>
+                            </div>
+
+                        </div>
+                        </div>
+
+                        <br />
+                        <br />
+                        <div class="tab-content tab-bordered ">
+                            <h4 style="color:black">Query Details</h4>
+                            <hr />
+                            <div class="row col-md-12">
+
+                                <div class="form-group col-md-6">
+                                    @Html.LabelFor(model => model.CapturedByUser, "Product", htmlAttributes: new { @class = "control-label col-md-4" })
+                                    <div class="col-md-12 input-group">
+                                        <span class="input-group-text material-symbols-outlined">
+                                            inventory_2
+                                        </span>
+                                        @Html.DropDownList("Products", (SelectList)ViewBag.AllocatedProductList, "-- select option --", htmlAttributes: new { @class = "form-control", @Name = "ProductId", @required = "required" })
+                                        @Html.ValidationMessageFor(model => model.Subject, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+
+
+
+
+
+
+                                <div class="form-group col-md-6">
+                                    @Html.LabelFor(model => model.CapturedByUser, "Category", htmlAttributes: new { @class = "control-label col-md-4" })
+                                    <div class="col-md-12 input-group">
+
+                                        <span class="input-group-text material-symbols-outlined">category</span>
+                                        @Html.DropDownList("Categories", (SelectList)ViewBag.Categories, "-- select option --", htmlAttributes: new { @onchange = "getSubCategories(this.value)", @required = "required", @class = "form-control", @Name = "CategoryId" })
+                                        @Html.ValidationMessageFor(model => model.Subject, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+
+
+
+
+                            </div>
+                            <div class="row col-md-12">
+                                <div class="form-group col-md-6">
+                                    @Html.LabelFor(model => model.CapturedByUser, "Sub-Category", htmlAttributes: new { @class = "control-label col-md-4" })
+                                    <div class="col-md-12 input-group">
+                                        <span class="input-group-text material-symbols-outlined">subdirectory_arrow_right</span>
+                                        @Html.DropDownList("SubCategoryId", (SelectList)ViewBag.Products, "-- select option --", htmlAttributes: new { @class = "form-control", @required = "required" })
+                                        @Html.ValidationMessageFor(model => model.Subject, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+
+
+                                <div class="form-group col-md-6">
+                                    @Html.LabelFor(model => model.Subject, "Query Subject", htmlAttributes: new { @class = "control-label col-md-4" })
+                                    <div class="col-md-12 input-group">
+                                        <span class="input-group-text material-symbols-outlined"> article_shortcut </span>
+                                        @Html.EditorFor(model => model.Subject, new { htmlAttributes = new { @class = "form-control", @required = "required" } })
+                                    </div>
+                                    @Html.ValidationMessageFor(model => model.Subject, "", new { @class = "text-danger" })
+                                </div>
+
+
+                            </div>
+                            <div class="row col-md-12">
+                               
+
+
+
+                                <div class="form-group col-md-6">
+                                    @Html.LabelFor(model => model.URL, htmlAttributes: new { @class = "control-label col-md-4" })
+                                    <div class="col-md-12 input-group">
+                                        <span class="input-group-text material-symbols-outlined"> link</span>
+                                        @Html.EditorFor(model => model.URL, new { htmlAttributes = new { @class = "form-control", @required = "required" } })
+                                    </div>
+                                    @Html.ValidationMessageFor(model => model.URL, "", new { @class = "text-danger" })
+                                </div>
+
+
+                            </div>
+                            <div class="row col-md-12">
+                                <div class="form-group col-md-12">
+                                    @Html.LabelFor(model => model.Description, htmlAttributes: new { @class = "control-label col-md-4" })
+                                    <div class="col-md-12 input-group">
+                                        <span class="input-group-text">
+                                            <span class="material-symbols-outlined"> description </span>
+                                        </span>
+                                        @Html.TextAreaFor(model => model.Description, new { @class = "form-control custom-textarea", @Name = "Description", @required = "required" })
+                                    </div>
+                                    @Html.ValidationMessageFor(model => model.Description, "", new { @class = "text-danger" })
+                                </div>
+
+
+
+
+                            </div>
+                        </div>
+
+                        <div class="card-footer text-right">
+                            <div class="col-md-offset-2 col-md-12">
+                                <input type="submit" value="Submit Query" class="btn btn-primary" />
+                            </div>
+                        </div>
+
+                    </div>
+                }
+
+            </div>
+        </div>
+    </div>
+
+</body>
+
+
+<script>
+    function getSubCategories(value) {
+        debugger;
+        if (value != null && value != '') {
+            $.ajax({
+                url: '@Url.Action("getSubCategories", "Ticket")', // The URL of the server-side script or API endpoint
+                type: 'GET', // The HTTP method (GET in this case)
+                dataType: 'json', // The expected data type of the response
+                data: { id: value },
+                success: function (response) {
+                    debugger;
+                    $('#SubCategoryId').empty();
+                    $('#SubCategoryId').prop('disabled', false);
+                    $("#SubCategoryId").append('<option value="">-- select option -- </option>');
+                    $.each(response, function (i, member) {
+                        $("#SubCategoryId").append('<option value="' + member.Id + '">' + member.Name + '</option>');
+                    });
+
+                },
+                error: function (xhr, status, error) {
+                    // This function is called if the request fails
+                    console.log('Request failed: ' + status + ', ' + error);
+                }
+            });
+        }
+    }
+</script>
+
+
+@*<div class="padding-20 card">
+
+        <h2 style="color:black">LogTicket</h2>
+
+
+        @using (Html.BeginForm())
+        {
+            @Html.AntiForgeryToken()
+
+            <div class="form-horizontal">
+                <div class="tab-content tab-bordered ">
+                    <h4 style="color:black">Client Details</h4>
+                    <hr />
+                    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                    <div class="row col-md-12">
+                        <div class="form-group col-md-6">
+                            @Html.LabelFor(model => model.CapturedByUser, "First Name", htmlAttributes: new { @class = "control-label col-md-4" })
+                            <div class="col-md-12">
+                                @Html.Editor("Name", new { htmlAttributes = new { @class = "form-control", @disabled = "disabled" } })
+                                @Html.ValidationMessageFor(model => model.Subject, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                        <div class="form-group col-md-6">
+                            @Html.LabelFor(model => model.CapturedByUser, "Last Name", htmlAttributes: new { @class = "control-label col-md-4" })
+                            <div class="col-md-12">
+                                @Html.Editor("Surname", new { htmlAttributes = new { @class = "form-control", @disabled = "disabled" } })
+                                @Html.ValidationMessageFor(model => model.Subject, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row col-md-12">
+                        <div class="form-group col-md-6">
+                            @Html.LabelFor(model => model.CapturedByUser, "Email Address", htmlAttributes: new { @class = "control-label col-md-4" })
+                            <div class="col-md-12">
+                                @Html.Editor("Email", new { htmlAttributes = new { @class = "form-control", @disabled = "disabled" } })
+                                @Html.ValidationMessageFor(model => model.Subject, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                        <div class="form-group col-md-6">
+                            @Html.LabelFor(model => model.CapturedByUser, "Mobile Number", htmlAttributes: new { @class = "control-label col-md-4" })
+                            <div class="col-md-12">
+                                @Html.Editor("Mobile", new { htmlAttributes = new { @class = "form-control", @disabled = "disabled" } })
+                                @Html.ValidationMessageFor(model => model.Subject, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <br />
+                <br />
+                <div class="tab-content tab-bordered ">
+                    <h4 style="color:black">Query Details</h4>
+                    <hr />
+                    <div class="row col-md-12">
+                        <div class="form-group col-md-6">
+                            @Html.LabelFor(model => model.CapturedByUser, "Product", htmlAttributes: new { @class = "control-label col-md-4" })
+                            <div class="col-md-12">
+                                @Html.DropDownList("Products", (SelectList)ViewBag.Products, "-- select option --", htmlAttributes: new { @class = "form-control", @Name = "ProductId", @required = "required" })
+                                @Html.ValidationMessageFor(model => model.Subject, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                        <div class="form-group col-md-6">
+                            @Html.LabelFor(model => model.CapturedByUser, "Category", htmlAttributes: new { @class = "control-label col-md-4" })
+                            <div class="col-md-12">
+                                @Html.DropDownList("Categories", (SelectList)ViewBag.Categories, "-- select option --", htmlAttributes: new { @onchange = "getSubCategories(this.value)", @required = "required", @class = "form-control", @Name = "CategoryId" })
+                                @Html.ValidationMessageFor(model => model.Subject, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row col-md-12">
+                        <div class="form-group col-md-6">
+                            @Html.LabelFor(model => model.CapturedByUser, "Sub-Category", htmlAttributes: new { @class = "control-label col-md-4" })
+                            <div class="col-md-12">
+                                @Html.DropDownList("Products", (SelectList)ViewBag.Products, "-- select option --", htmlAttributes: new { @class = "form-control", @required = "required", @disabled = "disabled", @Id = "SubCategoryId", @Name = "SubCategoryId" })
+                                @Html.ValidationMessageFor(model => model.Subject, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="row col-md-12">
+                        <div class="form-group col-md-6">
+                            @Html.LabelFor(model => model.Subject, "Query Subject", htmlAttributes: new { @class = "control-label col-md-4" })
+                            <div class="col-md-12">
+                                @Html.EditorFor(model => model.Subject, new { htmlAttributes = new { @class = "form-control", @required = "required" } })
+                                @Html.ValidationMessageFor(model => model.Subject, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                        <div class="form-group col-md-6">
+                            @Html.LabelFor(model => model.URL, htmlAttributes: new { @class = "control-label col-md-4" })
+                            <div class="col-md-12">
+                                @Html.EditorFor(model => model.URL, new { htmlAttributes = new { @class = "form-control", @required = "required" } })
+                                @Html.ValidationMessageFor(model => model.URL, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="row col-md-12">
+                        <div class="form-group col-md-6">
+                            @Html.LabelFor(model => model.Description, htmlAttributes: new { @class = "control-label col-md-4" })
+                            <div class="col-md-12">
+                                @Html.TextArea("Description", null, htmlAttributes: new { @class = "form-control", @Name = "Description", @required = "required" })
+                                @Html.ValidationMessageFor(model => model.Description, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-footer text-right">
+                    <div class="col-md-offset-2 col-md-12">
+                        <input type="submit" value="Submit Query" class="btn btn-primary" />
+                    </div>
+                </div>
+
+            </div>
+        }
+
+    </div>*@

@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="eBilling6MonthsModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="BillsArchive">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="numeric" Precision="28" Scale="0" Nullable="false" />
+    <Property Name="QueueId" Type="numeric" Precision="28" Scale="0" />
+    <Property Name="Path" Type="varchar" MaxLength="128" />
+    <Property Name="Filename" Type="varchar" MaxLength="30" />
+    <Property Name="ProcessedDateTime" Type="datetime" />
+  </EntityType>
+  <EntityType Name="QueueArchive">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="numeric" Precision="28" Scale="0" Nullable="false" />
+    <Property Name="BillDate" Type="date" />
+    <Property Name="AccountNumber" Type="numeric" Precision="19" Scale="0" />
+    <Property Name="CustomerAccountName" Type="varchar" MaxLength="100" />
+    <Property Name="EmailSubject" Type="varchar" MaxLength="128" />
+    <Property Name="EmailAddressTo" Type="varchar" MaxLength="128" />
+    <Property Name="EmailAddressCc" Type="varchar" MaxLength="128" />
+    <Property Name="QueueDateTime" Type="datetime" />
+    <Property Name="ProcessedDateTime" Type="datetime" />
+    <Property Name="ArchivedDateTime" Type="datetime" />
+    <Property Name="StatusId" Type="int" />
+  </EntityType>
+  <EntityType Name="QueuePending">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="numeric" Precision="28" Scale="0" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="BillDate" Type="date" />
+    <Property Name="AccountNumber" Type="numeric" Precision="19" Scale="0" />
+    <Property Name="CustomerAccountName" Type="varchar" MaxLength="100" />
+    <Property Name="EmailSubject" Type="varchar" MaxLength="128" />
+    <Property Name="EmailAddressTo" Type="varchar" MaxLength="128" />
+    <Property Name="EmailAddressCc" Type="varchar" MaxLength="128" />
+    <Property Name="QueueDateTime" Type="datetime" />
+    <Property Name="ProcessedDateTime" Type="datetime" />
+    <Property Name="StatusId" Type="int" />
+  </EntityType>
+  <EntityType Name="Statistics">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="BillDate" Type="date" Nullable="false" />
+    <Property Name="Accounts" Type="int" />
+    <Property Name="EmailAccounts" Type="int" />
+    <Property Name="ExpectedAccounts" Type="int" />
+    <Property Name="PendingEmails" Type="int" />
+    <Property Name="CompletedEmails" Type="int" />
+    <Property Name="Errors" Type="int" />
+  </EntityType>
+  <EntityType Name="SystemErrors">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="numeric" Precision="28" Scale="0" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="QueueId" Type="numeric" Precision="28" Scale="0" />
+    <Property Name="ErrorDateTime" Type="datetime" />
+    <Property Name="Details" Type="nvarchar(max)" />
+  </EntityType>
+  <Function Name="pr_REPORT_BillingHistory" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="AccountNumber" Type="numeric" Mode="In" />
+  </Function>
+  <Function Name="pr_REPORT_BillingHistoryDetails" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="AccountNumber" Type="numeric" Mode="In" />
+    <Parameter Name="BillDate" Type="date" Mode="In" />
+  </Function>
+  <Function Name="pr_REPORT_BillingHistorySummary" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="AccountNumber" Type="numeric" Mode="In" />
+  </Function>
+  <Function Name="pr_SCRIPT_RequeueBill" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="AccountNumber" Type="numeric" Mode="In" />
+    <Parameter Name="BillDate" Type="date" Mode="In" />
+  </Function>
+  <EntityContainer Name="eBilling6MonthsModelStoreContainer">
+    <EntitySet Name="BillsArchive" EntityType="Self.BillsArchive" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="QueueArchive" EntityType="Self.QueueArchive" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="QueuePending" EntityType="Self.QueuePending" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Statistics" EntityType="Self.Statistics" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="SystemErrors" EntityType="Self.SystemErrors" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

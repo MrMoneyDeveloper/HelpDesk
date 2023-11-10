@@ -1,0 +1,233 @@
+﻿
+@{
+    ViewBag.Title = "UserProfile";
+    Layout = "~/Views/Shared/_LayoutPage.cshtml";
+}
+
+
+
+<h2>@ViewBag.Title</h2>
+
+
+<!doctype html>
+<html lang="en">
+<head>
+    <link href="~/assets/libs/jsvectormap/css/jsvectormap.min.css" rel="stylesheet" type="text/css" />
+    <link href="~/assets/css/bootstrap.min.css" id="bootstrap-style" rel="stylesheet" type="text/css" />
+    <link href="~/assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+    <link href="~/assets/css/app.min.css" id="app-style" rel="stylesheet" type="text/css" />
+
+
+
+    <link href="~/assets/libs/choices.js/public/assets/styles/choices.min.css" rel="stylesheet" type="text/css" />
+    <link href="~/assets/libs/flatpickr/flatpickr.min.css" rel="stylesheet">
+
+    <!-- One of the following themes -->
+    <link rel="stylesheet" href="~/assets/libs/simonwep/pickr/themes/classic.min.css" /> <!-- 'classic' theme -->
+    <link rel="stylesheet" href="~/assets/libs/simonwep/pickr/themes/monolith.min.css" /> <!-- 'monolith' theme -->
+    <link rel="stylesheet" href="~/assets/libs/simonwep/pickr/themes/nano.min.css" /> <!-- 'nano' theme -->
+    <!-- Include the flatpickr styles from CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,100,0,-25" />
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.7.5/css/swiper-bundle.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="path_to/ion.rangeSlider.min.css" />
+    <script src="path_to/ion.rangeSlider.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,100,0,-25" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/14.6.3/nouislider.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/14.6.3/nouislider.min.js"></script>
+
+
+
+
+    <style>
+        .material-icons {
+            font-family: 'Material Icons';
+            font-weight: normal;
+            font-style: normal;
+            font-size: 24px; /* Preferred icon size */
+            display: inline-block;
+            line-height: 1;
+            text-transform: none;
+            letter-spacing: normal;
+            word-wrap: normal;
+            white-space: nowrap;
+            direction: ltr;
+            /* Support for all WebKit browsers. */
+            -webkit-font-smoothing: antialiased;
+            /* Support for Safari and Chrome. */
+            text-rendering: optimizeLegibility;
+            /* Support for Firefox. */
+            -moz-osx-font-smoothing: grayscale;
+            /* Support for IE. */
+            font-feature-settings: 'liga';
+        }
+
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 100, 'GRAD' -25, 'opsz' 24
+        }
+    </style>
+
+
+</head>
+<body>
+
+
+    <div class="main-content">
+        <div class="page-content">
+            <div class="container-fluid">
+                <div class="row justify-content-center">
+                    <!-- Update Profile Card (Left Side) -->
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title text-center mb-4">Update Profile</h5>
+                                <form id="updateForm">
+                                    <div class="mb-3">
+                                        <label for="firstName" class="form-label">First Name</label>
+                                        <div class="input-group">
+                                            <span class="input-group-text">
+                                                <i class="material-symbols-outlined">person</i>
+                                            </span>
+                                            <input type="text" class="form-control" id="firstName" name="firstName" value="@ViewBag.FirstName">
+                                        </div>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="lastName" class="form-label">Last Name</label>
+                                        <div class="input-group">
+                                            <span class="input-group-text">
+                                                <i class="material-symbols-outlined">group</i>
+                                            </span>
+                                            <input type="text" class="form-control" id="lastName" name="lastName" value="@ViewBag.LastName">
+                                        </div>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="email" class="form-label">Email Address</label>
+                                        <div class="input-group">
+                                            <span class="input-group-text">
+                                                <i class="material-symbols-outlined">email</i>
+                                            </span>
+                                            <input type="email" class="form-control" id="email" name="email" value="@ViewBag.EmailAddress">
+                                        </div>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="mobileNumber" class="form-label">Mobile Number</label>
+                                        <div class="input-group">
+                                            <span class="input-group-text">
+                                                <i class="material-symbols-outlined">phone</i>
+                                            </span>
+                                            <input type="text" class="form-control" id="mobileNumber" name="mobileNumber" value="@ViewBag.MobileNumber">
+                                        </div>
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <label for="mobileNumber" class="form-label">Company Name</label>
+                                        <div class="input-group">
+                                            <span class="input-group-text">
+                                                <i class="material-symbols-outlined">business</i> <!-- Material Icons company icon -->
+                                            </span>
+                                            <input type="text" class="form-control" id="mobileNumber" name="mobileNumber" value="@ViewBag.CompanyName">
+                                        </div>
+                                    </div>
+
+
+                                    <div class="mb-3">
+                                        <label for="userName" class="form-label">User Name</label>
+                                        <div class="input-group">
+                                            <span class="input-group-text">
+                                                <i class="material-symbols-outlined">person</i> <!-- Material Icons user icon -->
+                                            </span>
+                                            <input type="text" class="form-control" id="userName" name="userName" value="@ViewBag.UserName">
+                                        </div>
+                                    </div>
+
+
+                                    <div class="mb-3">
+                                        <label for="periodTo" class="form-label">Period</label>
+                                        <div class="input-group">
+                                            <span class="input-group-text">
+                                                <i class="material-symbols-outlined">calendar_today</i> <!-- Material Icons calendar icon -->
+                                            </span>
+                                            <input type="text" class="form-control" id="periodTo" name="periodTo" value="@ViewBag.PeriodTo">
+                                        </div>
+                                    </div>
+
+
+                                    <div class="mb-3">
+                                        <label for="designation" class="form-label">Designation</label>
+                                        <div class="input-group">
+                                            <span class="input-group-text">
+                                                <i class="material-symbols-outlined">work</i> <!-- Material Icons work icon for Designation -->
+                                            </span>
+                                            <input type="text" class="form-control" id="designation" name="designation" value="@ViewBag.Designation">
+                                        </div>
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <label for="title" class="form-label">Title</label>
+                                        <div class="input-group">
+                                            <span class="input-group-text">
+                                                <i class="material-symbols-outlined">title</i> <!-- Material Icons title icon for Title -->
+                                            </span>
+                                            <input type="text" class="form-control" id="title" name="title" value="@ViewBag.Title">
+                                        </div>
+                                    </div>
+
+
+
+                                    <div class="text-center">
+                                        <button type="submit" class="btn btn-primary">Request to Update</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Portfolio Section (Right Side) -->
+                    @*<div class="col-md-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title text-center mb-4">Portfolio</h5>
+                                <ul class="list-unstyled mb-0">
+                                    <li>
+                                        <div class="d-flex align-items-center">
+                                            <i class="uil uil-user font-size-16 text-primary me-1"></i>
+                                            <span class="font-size-14">Username: @ViewBag.UserName</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="d-flex align-items-center">
+                                            <i class="material-icons font-size-16 text-primary me-1">work</i>
+                                            <span class="font-size-14">Designation: @ViewBag.Designation</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="d-flex align-items-center">
+                                            <i class="material-icons font-size-16 text-primary me-1">date_range</i>
+                                            <span class="font-size-14">Period: @ViewBag.PeriodTo</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="d-flex align-items-center">
+                                            <i class="material-icons font-size-16 text-primary me-1">title</i>
+                                            <span class="font-size-14">Title: @ViewBag.Title</span>
+                                        </div>
+                                    </li>
+
+                                    
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>*@
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+</body>
+</html>

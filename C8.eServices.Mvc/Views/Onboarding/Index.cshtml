@@ -1,0 +1,74 @@
+﻿@model IEnumerable<C8.eServices.Mvc.Models.OnboardingRequest>
+@{
+    ViewBag.Title = "Onboarding Requests";
+    Layout = "~/Views/Shared/_LayoutPage.cshtml";
+    var direction = ViewBag.queueKey;
+}
+
+<html lang="en">
+<head>
+    <link href="~/assets/libs/jsvectormap/css/jsvectormap.min.css" rel="stylesheet" type="text/css" />
+    <link href="~/assets/css/bootstrap.min.css" id="bootstrap-style" rel="stylesheet" type="text/css" />
+    <link href="~/assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+    <link href="~/assets/css/app.min.css" id="app-style" rel="stylesheet" type="text/css" />
+
+    <link rel="stylesheet" href="~/assets/libs/gridjs/theme/mermaid.min.css">
+</head>
+<body>
+    <div class="main-content">
+        <input type="text" value="@direction" id="direction" style="display:none;" />
+        <div class="page-content">
+            <div class="container-fluid">
+                <!-- start page title -->
+                <div class="row">
+                    <div class="col-12">
+                        <div class="page-title-box d-flex align-items-center justify-content-between">
+                            <h4 class="mb-0">Onboarding @ViewBag.Onboarding</h4>
+
+                            <div class="page-title-right">
+                                <ol class="breadcrumb m-0">
+                                    <li class="breadcrumb-item"><a href="javascript: void(0);">Onboarding</a></li>
+                                    <li class="breadcrumb-item active">@ViewBag.Title</li>
+                                </ol>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- end page title -->
+              
+                @*<button type="button" onclick="window.location.href='@Url.Action(" ", "", new { q = new C8.eServices.Mvc.Helpers.AesCrypto().Encrypt("id=") })'" class="btn btn-outline-info"><i class="uil uil-info-circle me-2"></i> Info</button>*@
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="card">
+                            <div class="card-header justify-content-between d-flex align-items-center">
+                                <h4 class="card-title">Requests</h4>
+                                @*<a href="https://gridjs.io/docs/examples/fixed-header" target="_blank" class="btn btn-sm btn-soft-secondary">Docs <i class="mdi mdi-arrow-right align-middle"></i></a>*@
+                            </div><!-- end card header -->
+                            <div class="card-body">
+                                <div id="table-fixed-header" class="table"></div>
+                            </div>
+                            <!-- end card body -->
+                        </div>
+                        <!-- end card -->
+                    </div>
+                    <!-- end col -->
+                </div>
+                <!-- end row -->
+
+            </div> <!-- container-fluid -->
+        </div>
+        <!-- End Page-content -->
+
+
+    </div>
+
+
+    <div class="rightbar-overlay"></div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="~/assets/libs/gridjs/gridjs.umd.js"></script>
+
+    <script src="~/assets/js/pages/gridjs.init.js"></script>
+
+</body>
+</html>

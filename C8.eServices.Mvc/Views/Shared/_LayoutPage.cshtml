@@ -1,0 +1,858 @@
+﻿@using C8.eServices.Mvc.Keys;
+@using C8.eServices.Mvc.Helpers;
+@using C8.eServices.Mvc.DataAccessLayer;
+
+@{
+    eServicesDbContext context = new eServicesDbContext();
+    BaseHelper baseHelper = new BaseHelper();
+    C8.eServices.Mvc.Models.SystemUser aUser = new C8.eServices.Mvc.Models.SystemUser();
+
+    baseHelper.Initialise(context);
+    aUser = baseHelper.SystemUser;
+}
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8" />
+    <title>@ViewBag.Title | XET Help Desk</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="Premium Multipurpose Admin & Dashboard Template" name="description" />
+    <meta content="Pichforest" name="author" />
+
+    <!-- App favicon -->
+    <link rel="shortcut icon" href="~/assets/images/XET_SOLUTIONS.png">
+
+    <!-- plugin css -->
+    <link href="assets/libs/jsvectormap/css/jsvectormap.min.css" rel="stylesheet" type="text/css" />
+
+    <!-- Bootstrap Css -->
+    <link href="assets/css/bootstrap.min.css" id="bootstrap-style" rel="stylesheet" type="text/css" />
+    <!-- Icons Css -->
+    <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+    <!-- App Css-->
+    <link href="assets/css/app.min.css" id="app-style" rel="stylesheet" type="text/css" />
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar with Mouse Position Transition</title>
+    <link rel="stylesheet" href="styles.css">
+
+
+    <style>
+        a {
+            color: whitesmoke; /* Default color */
+            text-decoration: none; /* Remove underline if desired */
+        }
+
+            /* Hover state */
+            a:hover {
+                color: whitesmoke; /* New color on hover */
+            }
+
+            /* Active/Clicked state */
+            a:active {
+                color: whitesmoke; /* New color when clicked */
+            }
+        /* Apply styles to links with class "custom-link" */
+        .custom-link {
+            color: whitesmoke;
+            text-decoration: none;
+        }
+
+            .custom-link:hover {
+                color: whitesmoke;
+            }
+
+            .custom-link:active {
+                color: whitesmoke;
+            }
+
+        /* Change the color of text in the side nav bar to black */
+        ul li a {
+            color: whitesmoke !important;
+        }
+
+        .navbar.pastel-1 {
+            background: linear-gradient(to bottom, #87cefa, #00bfff);
+            /* Add your specific styles for the navbar here */
+        }
+
+        .menu-title[data-key="t-dashboards"] {
+            color: #fff;
+        }
+
+        .selected-link {
+            background-color: white !important;
+            color: black !important; /* Adjust text color if needed */
+        }
+
+        .menu-icon {
+            vertical-align: middle; /* Align icon vertically with text */
+            margin-right: 5px; /* Add some spacing between icon and text */
+        }
+
+        .ticket-icon {
+            font-size: 20px; /* Adjust font size as needed */
+            vertical-align: middle; /* Align icon vertically with text */
+            margin-right: 5px; /* Add some spacing between icon and text */
+        }
+
+        .vertical-menu {
+            background-color: #36454F !important;
+        }
+
+       
+        .hidden-menu-items {
+            display: none;
+        }
+
+        
+
+        .btn-white {
+            background-color: #fff;
+            border-color: #fff;
+            color: #fff; /* Set text color to white */
+        }
+
+            .btn-white i {
+                color: #fff; /* Set icon color to white */
+            }
+
+        /*.sub-menu li:hover {
+            background-color: grey;*/ /* Adjust the color to your preference */
+        /*}
+
+        .sub-menu li.active {
+            background-color: grey;*/ /* Adjust the color to your preference */
+        /*}
+        ul.sub-menu {
+            background-color: grey;*/ /* Adjust the color to your preference */
+        /*}
+        ul.sub-menu {
+            color: black;*/ /* Set the text color to black */
+        /*}*/
+
+        #sidebar-menu ul li ul.sub-menu li a {
+            background-color: #36454F !important;
+        }
+        body[data-sidebar-size=sm] .vertical-menu #sidebar-menu > ul > li:hover > a {
+            background-color: #36454F !important;
+        }
+
+
+    </style>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,100,0,-25" />
+
+</head>
+
+
+<body>
+    @RenderBody()
+    <!-- <body data-layout="horizontal"> -->
+    <!-- Begin page -->
+    <div id="layout-wrapper">
+
+        <header id="page-topbar" style="background: #4A5767; ">
+
+
+
+
+            <div class="navbar-header">
+                <div class="d-flex">
+                    <!-- LOGO -->
+                    <div class="navbar-brand-box">
+
+
+
+                    </div>
+
+                    @*<button type="button" class="btn btn-sm px-3 font-size-16 header-item vertical-menu-btn">
+                        <i class="fa fa-fw fa-bars" style="color: white;"></i>
+
+                    </button>*@
+
+                    <button type="button" class="btn btn-sm px-3 font-size-16 header-item vertical-menu-btn" id="toggleSidebarButton">
+                        <i class="fa fa-fw fa-bars" style="color: white;"></i>
+                    </button>
+
+
+
+                </div>
+
+                <div class="d-flex">
+                    <div class="dropdown d-inline-block">
+                        <button type="button" class="btn header-item noti-icon" id="page-header-notifications-dropdown"
+                                data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="icon-sm" data-feather="bell"></i>
+                            <span class="noti-dot bg-danger"></span>
+                        </button>
+                        <div class="dropdown-menu dropdown-menu-lg dropdown-menu-end p-0"
+                             aria-labelledby="page-header-notifications-dropdown">
+                            <div class="p-3">
+                                <div class="row align-items-center">
+                                    <div class="col">
+                                        <h5 class="m-0 font-size-15"> Notifications </h5>
+                                    </div>
+                                    <div class="col-auto">
+                                        <a href="#!" class="small"> Mark all as read</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div data-simplebar style="max-height: 250px;">
+                                <h6 class="dropdown-header bg-light">New</h6>
+                                <a href="" class="text-reset notification-item">
+                                    <div class="d-flex border-bottom align-items-start">
+                                        <div class="flex-shrink-0">
+                                            <img src="~/assets/images/users/avatar-3.jpg"
+                                                 class="me-3 rounded-circle avatar-sm" alt="user-pic">
+                                        </div>
+                                        <div class="flex-grow-1">
+                                            <h6 class="mb-1">Justin Verduzco</h6>
+                                            <div class="text-muted">
+                                                <p class="mb-1 font-size-13">Your task changed an issue from "In Progress" to <span class="badge badge-soft-success">Review</span></p>
+                                                <p class="mb-0 font-size-10 text-uppercase fw-bold"><i class="mdi mdi-clock-outline"></i> 1 hours ago</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="" class="text-reset notification-item">
+                                    <div class="d-flex border-bottom align-items-start">
+                                        <div class="flex-shrink-0">
+                                            <div class="avatar-sm me-3">
+                                                <span class="avatar-title bg-primary rounded-circle font-size-16">
+                                                    <i class="uil-shopping-basket"></i>
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="flex-grow-1">
+                                            <h6 class="mb-1">New order has been placed</h6>
+                                            <div class="text-muted">
+                                                <p class="mb-1 font-size-13">Open the order confirmation or shipment confirmation.</p>
+                                                <p class="mb-0 font-size-10 text-uppercase fw-bold"><i class="mdi mdi-clock-outline"></i> 5 hours ago</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <h6 class="dropdown-header bg-light">Earlier</h6>
+                                <a href="" class="text-reset notification-item">
+                                    <div class="d-flex border-bottom align-items-start">
+                                        <div class="flex-shrink-0">
+                                            <div class="avatar-sm me-3">
+                                                <span class="avatar-title bg-soft-success text-success rounded-circle font-size-16">
+                                                    <i class="uil-truck"></i>
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="flex-grow-1">
+                                            <h6 class="mb-1">Your item is shipped</h6>
+                                            <div class="text-muted">
+                                                <p class="mb-1 font-size-13">Here is somthing that you might light like to know.</p>
+                                                <p class="mb-0 font-size-10 text-uppercase fw-bold"><i class="mdi mdi-clock-outline"></i> 1 day ago</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+
+                                <a href="" class="text-reset notification-item">
+                                    <div class="d-flex border-bottom align-items-start">
+                                        <div class="flex-shrink-0">
+                                            <img src="~/assets/images/users/avatar-4.jpg"
+                                                 class="me-3 rounded-circle avatar-sm" alt="user-pic">
+                                        </div>
+                                        <div class="flex-grow-1">
+                                            <h6 class="mb-1">Salena Layfield</h6>
+                                            <div class="text-muted">
+                                                <p class="mb-1 font-size-13">Yay ! Everything worked!</p>
+                                                <p class="mb-0 font-size-10 text-uppercase fw-bold"><i class="mdi mdi-clock-outline"></i> 3 days ago</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="p-2 border-top d-grid">
+                                <a class="btn btn-sm btn-link font-size-14 btn-block text-center" href="javascript:void(0)">
+                                    <i class="uil-arrow-circle-right me-1"></i> <span>View More..</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="dropdown d-inline-block">
+                        <button type="button" class="btn header-item noti-icon right-bar-toggle" id="right-bar-toggle">
+                            <i class="icon-sm" data-feather="settings"></i>
+                        </button>
+                    </div>
+                    @if (Request.IsAuthenticated)
+                    {
+                        <div class="dropdown d-inline-block">
+                            <button type="button" class="btn header-item user text-start d-flex align-items-center" id="page-header-user-dropdown"
+                                    data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <img class="rounded-circle header-profile-user" src="~/assets/images/users/avatar-1.jpg"
+                                     alt="Header Avatar">
+                                <span class="ms-2 d-none d-sm-block user-item-desc">
+                                    <span class="user-name" style="color: white;">@aUser.FullName</span>
+
+                                    <span class="user-sub-title" style="color:white;">Administrator</span>
+                                </span>
+                            </button>
+                            <div class="dropdown-menu dropdown-menu-end pt-0">
+                                <div class="p-3 bg-primary border-bottom">
+                                    <h6 class="mb-0 text-white">@aUser.FullName</h6>
+                                    <p class="mb-0 font-size-11 text-white-50 fw-semibold">@aUser.EmailAddress</p>
+                                </div>
+                                <a class="dropdown-item" href="pages-profile.html"><i class="mdi mdi-account-circle text-muted font-size-16 align-middle me-1"></i> <span class="align-middle">Profile</span></a>
+
+                                <a class="dropdown-item" href="pages-faqs.html"><i class="mdi mdi-lifebuoy text-muted font-size-16 align-middle me-1"></i> <span class="align-middle">Help</span></a>
+                                <div class="dropdown-divider"></div>
+
+                                <a class="dropdown-item d-flex align-items-center" href="user-settings.html">
+                                    <i class="mdi mdi-cog-outline text-muted font-size-16 align-middle me-1"></i> <span class="align-middle">Settings</span>
+
+                                    @if (Request.IsAuthenticated)
+                                    {
+                                        using (Html.BeginForm("LogOff", "Account", FormMethod.Post, new { id = "logoutForm", @class = "navbar-right" }))
+                                        {
+                                            @Html.AntiForgeryToken()
+                                            <a class="dropdown-item" href="javascript:document.getElementById('logoutForm').submit()"><i class="mdi mdi-logout text-muted font-size-16 align-middle me-1"></i> <span class="align-middle">Logout</span></a>
+                                        }
+                                    }
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        </header>
+        <!-- ========== Left Sidebar Start ========== -->
+        <!--<div id="sidebar-container" style="background: #36454F;">
+        <div class="vertical-menu">
+            <div class="navbar-brand-box" style="background: #36454F;">-->
+        <!-- Your logo content -->
+        <!--</div>
+
+
+    <button type="button" style="color:aliceblue" class="btn btn-sm px-3 font-size-16 header-item vertical-menu-btn" id="toggleVerticalMenuButton">
+        <i class="fa fa-fw fa-bars"></i>
+    </button>-->
+        @*<div data-simplebar class="sidebar-menu-scroll" style="background: #36454F; ">*@
+
+
+        <!--- Sidemenu -->
+        <!--<div id="sidebar-menu">
+        <div id="sidebar-menu-items">-->
+        <!-- Left Menu Start -->
+        <!--<ul class="metismenu list-unstyled" id="side-menu">
+        <li class="menu-title" data-key="t-dashboards" style="color:#fff ;">Dashboards</li>-->
+        @**@
+
+        @*<li class="menu-title" data-key="t-applications" style="color:#ffff;">Applications</li>*@
+
+
+        @*<li>
+                                <a href="javascript: void(0);" class="has-arrow" style="background-color: transparent;" onclick="toggleSelected(this);">
+            <div class="menu-item-container" id="onboardingMenuItem" style="display: none;">
+                <span class="material-symbols-outlined menu-icon">note_alt</span>
+                <span class="menu-item" data-key="t-contacts">Onboarding</span>
+            </div>
+        </a>
+                            </li>*@
+
+
+
+
+
+
+        @*<li class="menu-title" data-key="t-applications" style="color:#ffff;">Incident</li>*@
+        @*<li>
+            <a href="javascript: void(0);" class="has-arrow incident-link" data-key="t-level-1.2">Incident</a>
+            <ul class="sub-menu" aria-expanded="true">
+                <li><a href="@Url.Action("LogIncident", "Incident")" data-key="t-level-2.2">Log Incident</a></li>
+                 Add other menu items similarly
+            </ul>
+        </li>*@
+
+
+
+
+
+
+
+
+
+
+        @*<li class="menu-title" data-key="t-applications" style="color:#ffff;">Onboarding</li>*@
+        @*<li>
+            <a href="javascript: void(0);" class="has-arrow" data-key="t-level-1.2">Onboarding </a>
+            <ul class="sub-menu" aria-expanded="true">
+                <li><a href="@Url.Action("OnboardigRequest", "Onboarding")" data-key="t-level-2.1">Onboard Client</a></li>
+                <li><a href="@Url.Action("OnboardEmployee", "Onboarding")" data-key="t-level-2.1">Onboard XET Employee</a></li>
+                <li>
+                    <a href="@Url.Action("EmployeeIndex", "Onboarding")" data-key="t-level-2.1">View Onboarded Employees</a>
+                </li>
+
+                <li><a href="@Url.Action("Index", "Onboarding", new { q = new AesCrypto().Encrypt("queueKey=" + OnboardingKeys.PendingApproval) })" data-key="t-user-grid">Pending Appproval</a></li>
+                <li><a href="@Url.Action("Index", "Onboarding", new { q = new AesCrypto().Encrypt("queueKey=" + OnboardingKeys.DeclinedApproval) })" data-key="t-user-settings">Declied Requests</a></li>
+            </ul>
+        </li>*@
+
+        @*<li class="menu-title" data-key="t-applications" style="color:#ffff;">Clients</li>*@
+        @*<li>
+            <a href="javascript: void(0);" class="has-arrow" data-key="t-level-1.2">Clients</a>
+            <ul class="sub-menu" aria-expanded="true">
+                <li><a href="@Url.Action("Clients", "Onboarding")" data-key="t-level-2.2">All Clients</a></li>
+
+            </ul>
+        </li>*@
+
+
+
+        @*<li class="menu-title" data-key="t-applications" style="color:#ffff;">XET</li>*@
+        @*<li>
+            <a href="javascript: void(0);" class="has-arrow" data-key="t-level-1.2">Xet</a>
+            <ul class="sub-menu" aria-expanded="true">
+                <li><a href="@Url.Action("CreateProduct", "Incident")" data-key="t-level-2.2">Product Management</a></li>
+
+            </ul>
+        </li>*@
+
+
+
+
+
+
+
+
+
+        @*</ul>
+
+
+
+        </div>*@
+        <!-- Sidebar -->
+        @*</div>
+        </div>*@
+        <!-- Left Sidebar End -->
+        <!-- ============================================================== -->
+        <!-- Start right Content here -->
+        <!-- ============================================================== -->
+        <!-- ========== Left Sidebar Start ========== -->
+    <div class="vertical-menu">
+
+        <!-- LOGO -->
+        <div class="navbar-brand-box">
+
+        </div>
+        <button type="button" class="btn btn-sm px-3 font-size-16 header-item vertical-menu-btn btn-white">
+            <i class="fa fa-fw fa-bars"></i>
+        </button>
+
+
+        <div data-simplebar class="sidebar-menu-scroll">
+
+            <!--- Sidemenu -->
+            <div id="sidebar-menu">
+                <!-- Left Menu Start -->
+                <ul class="metismenu list-unstyled" id="side-menu">
+                    @*<li class="menu-title" data-key="t-dashboards">Dashboards</li>*@
+
+                    @**@
+
+
+                    @*<li class="menu-title" data-key="t-applications">Applications</li>*@
+
+                  
+
+                    <li>
+                        <a href="javascript: void(0);" class="has-arrow">
+                            <i class="fas fa-exclamation-triangle"></i> <!-- This is the incident icon -->
+                            <span class="menu-item" data-key="t-contacts">Incidents</span>
+                        </a>
+
+
+                        <ul class="sub-menu" aria-expanded="false">
+
+                            <li><a href="@Url.Action("LogIncident", "Incident")" data-key="t-level-2.2">Log Incident</a></li>
+
+
+                        </ul>
+
+                    </li>
+
+
+                    <li>
+                        <a href="javascript: void(0);" class="has-arrow">
+                            <i class="fas fa-user-plus"></i> <!-- This is the onboarding icon -->
+                            <span class="menu-item" data-key="t-contacts">Onboarding</span>
+                        </a>
+
+
+                        <ul class="sub-menu" aria-expanded="false">
+
+                            <li><a href="@Url.Action("OnboardigRequest", "Onboarding")" data-key="t-level-2.1">Onboard Client</a></li>
+                            <li><a href="@Url.Action("OnboardEmployee", "Onboarding")" data-key="t-level-2.1">Onboard XET Employee</a></li>
+                            <li>
+                                <a href="@Url.Action("EmployeeIndex", "Onboarding")" data-key="t-level-2.1">View Onboarded Employees</a>
+                            </li>
+
+                            <li><a href="@Url.Action("Index", "Onboarding", new { q = new AesCrypto().Encrypt("queueKey=" + OnboardingKeys.PendingApproval) })" data-key="t-user-grid">Pending Appproval</a></li>
+                            <li><a href="@Url.Action("Index", "Onboarding", new { q = new AesCrypto().Encrypt("queueKey=" + OnboardingKeys.DeclinedApproval) })" data-key="t-user-settings">Declied Requests</a></li>
+
+
+                        </ul>
+
+                    </li>
+
+                    <li>
+                        <a href="javascript: void(0);" class="has-arrow">
+                            <i class="fas fa-users"></i> <!-- This is the clients icon -->
+                            <span class="menu-item" data-key="t-contacts">Clients</span>
+                        </a>
+
+
+                        <ul class="sub-menu" aria-expanded="false">
+
+                            <li><a href="@Url.Action("Clients", "Onboarding")" data-key="t-level-2.2">All Clients</a></li>
+
+
+                        </ul>
+
+                    </li>
+
+                    <li>
+                        <a href="javascript: void(0);" class="has-arrow">
+                            <i class="fas fa-box"></i> <!-- This is the products icon -->
+                            <span class="menu-item" data-key="t-contacts">Product</span>
+                        </a>
+
+
+                        <ul class="sub-menu" aria-expanded="false">
+
+                            <li><a href="@Url.Action("CreateProduct", "Incident")" data-key="t-level-2.2">Product Management</a></li>
+
+
+                        </ul>
+
+                    </li>
+
+
+
+                    @*<li>
+            <a href="javascript: void(0);" class="has-arrow">
+                <i class="icon nav-icon" data-feather="file-text"></i>
+                <span class="menu-item" data-key="t-projects">Projects</span>
+            </a>
+            <ul class="sub-menu" aria-expanded="false">
+                <li><a href="projects-grid.html" data-key="t-p-grid">Projects Grid</a></li>
+                <li><a href="projects-list.html" data-key="t-p-list">Projects List</a></li>
+                <li><a href="projects-overview.html" data-key="t-p-overview">Project Overview</a></li>
+                <li><a href="projects-create.html" data-key="t-create-new">Create New</a></li>
+            </ul>
+        </li>*@
+                </ul>
+            </div>
+            <!-- Sidebar -->
+        </div>
+    </div>
+        <!-- Left Sidebar End -->
+        <!-- ============================================================== -->
+        <!-- Start right Content here -->
+        <!-- ============================================================== -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="main-content">
+
+            <!-- End Page-content -->
+
+            <footer class="footer">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <script>document.write(new Date().getFullYear())</script> &copy; Xet HelpDesk.
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="text-sm-end d-none d-sm-block">
+                                Crafted with <i class="mdi mdi-heart text-danger"></i> by <a href="https://Pichforest.com/" target="_blank" class="text-reset">Pichforest</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <!-- end main content-->
+
+    </div>
+            <!-- END layout-wrapper -->
+            <!-- Right Sidebar -->
+            <div class="right-bar">
+                <div data-simplebar class="h-100">
+                    <div class="rightbar-title d-flex align-items-center bg-dark p-3">
+
+                        <h5 class="m-0 me-2 text-white">Theme Customizer</h5>
+
+                        <a href="javascript:void(0);" class="right-bar-toggle-close ms-auto">
+                            <i class="mdi mdi-close noti-icon"></i>
+                        </a>
+                    </div>
+
+                    <!-- Settings -->
+                    <hr class="m-0" />
+
+                    <div class="p-4">
+                        <h6 class="mb-3">Layout</h6>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="layout"
+                                   id="layout-vertical" value="vertical">
+                            <label class="form-check-label" for="layout-vertical">Vertical</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="layout"
+                                   id="layout-horizontal" value="horizontal">
+                            <label class="form-check-label" for="layout-horizontal">Horizontal</label>
+                        </div>
+
+                        <h6 class="mt-4 mb-3">Layout Mode</h6>
+
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="layout-mode"
+                                   id="layout-mode-light" value="light">
+                            <label class="form-check-label" for="layout-mode-light">Light</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="layout-mode"
+                                   id="layout-mode-dark" value="dark">
+                            <label class="form-check-label" for="layout-mode-dark">Dark</label>
+                        </div>
+
+                        <h6 class="mt-4 mb-3">Layout Width</h6>
+
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="layout-width"
+                                   id="layout-width-fluid" value="fluid" onchange="document.body.setAttribute('data-layout-size', 'fluid')">
+                            <label class="form-check-label" for="layout-width-fluid">Fluid</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="layout-width"
+                                   id="layout-width-boxed" value="boxed" onchange="document.body.setAttribute('data-layout-size', 'boxed')">
+                            <label class="form-check-label" for="layout-width-boxed">Boxed</label>
+                        </div>
+
+                        <h6 class="mt-4 mb-3">Layout Position</h6>
+
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="layout-position"
+                                   id="layout-position-fixed" value="fixed" onchange="document.body.setAttribute('data-layout-scrollable', 'false')">
+                            <label class="form-check-label" for="layout-position-fixed">Fixed</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="layout-position"
+                                   id="layout-position-scrollable" value="scrollable" onchange="document.body.setAttribute('data-layout-scrollable', 'true')">
+                            <label class="form-check-label" for="layout-position-scrollable">Scrollable</label>
+                        </div>
+
+                        <h6 class="mt-4 mb-3">Topbar Color</h6>
+
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="topbar-color"
+                                   id="topbar-color-light" value="light" onchange="document.body.setAttribute('data-topbar', 'light')">
+                            <label class="form-check-label" for="topbar-color-light">Light</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="topbar-color"
+                                   id="topbar-color-dark" value="dark" onchange="document.body.setAttribute('data-topbar', 'dark')">
+                            <label class="form-check-label" for="topbar-color-dark">Dark</label>
+                        </div>
+
+                        <div id="sidebar-setting">
+                            <h6 class="mt-4 mb-3 sidebar-setting">Sidebar Size</h6>
+
+                            <div class="form-check sidebar-setting">
+                                <input class="form-check-input" type="radio" name="sidebar-size"
+                                       id="sidebar-size-default" value="default" onchange="document.body.setAttribute('data-sidebar-size', 'lg')">
+                                <label class="form-check-label" for="sidebar-size-default">Default</label>
+                            </div>
+                            <div class="form-check sidebar-setting">
+                                <input class="form-check-input" type="radio" name="sidebar-size"
+                                       id="sidebar-size-compact" value="compact" onchange="document.body.setAttribute('data-sidebar-size', 'md')">
+                                <label class="form-check-label" for="sidebar-size-compact">Compact</label>
+                            </div>
+                            <div class="form-check sidebar-setting">
+                                <input class="form-check-input" type="radio" name="sidebar-size"
+                                       id="sidebar-size-small" value="small" onchange="document.body.setAttribute('data-sidebar-size', 'sm')">
+                                <label class="form-check-label" for="sidebar-size-small">Small (Icon View)</label>
+                            </div>
+
+                            <h6 class="mt-4 mb-3 sidebar-setting">Sidebar Color</h6>
+
+                            <div class="form-check sidebar-setting">
+                                <input class="form-check-input" type="radio" name="sidebar-color"
+                                       id="sidebar-color-light" value="light" onchange="document.body.setAttribute('data-sidebar', 'light')">
+                                <label class="form-check-label" for="sidebar-color-light">Light</label>
+                            </div>
+                            <div class="form-check sidebar-setting">
+                                <input class="form-check-input" type="radio" name="sidebar-color"
+                                       id="sidebar-color-dark" value="dark" onchange="document.body.setAttribute('data-sidebar', 'dark')">
+                                <label class="form-check-label" for="sidebar-color-dark">Dark</label>
+                            </div>
+                            <div class="form-check sidebar-setting">
+                                <input class="form-check-input" type="radio" name="sidebar-color"
+                                       id="sidebar-color-brand" value="brand" onchange="document.body.setAttribute('data-sidebar', 'brand')">
+                                <label class="form-check-label" for="sidebar-color-brand">Brand</label>
+                            </div>
+                        </div>
+
+
+                        <h6 class="mt-4 mb-3">Direction</h6>
+
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="layout-direction"
+                                   id="layout-direction-ltr" value="ltr">
+                            <label class="form-check-label" for="layout-direction-ltr">LTR</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="layout-direction"
+                                   id="layout-direction-rtl" value="rtl">
+                            <label class="form-check-label" for="layout-direction-rtl">RTL</label>
+                        </div>
+
+                    </div>
+
+                </div> <!-- end slimscroll-menu-->
+            </div>
+        </div>
+        <!-- /Right-bar -->
+        <!-- Right bar overlay-->
+        <div class="rightbar-overlay"></div>
+
+        <!-- JAVASCRIPT -->
+        <script src="~/assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="~/assets/libs/metismenujs/metismenujs.min.js"></script>
+        <script src="~/assets/libs/simplebar/simplebar.min.js"></script>
+        <script src="~/assets/libs/feather-icons/feather.min.js"></script>
+
+
+        <script src="~/assets/libs/alertifyjs/build/alertify.min.js"></script>
+        <script src="~/assets/js/app.js"></script>
+
+</body>
+
+</html>
+
+<script>
+
+
+    //document.addEventListener('DOMContentLoaded', function () {
+    //    document.addEventListener('mousemove', function (e) {
+    //        const x = e.pageX;
+    //        const y = e.pageY;
+
+    //        const gradientX = (x / window.innerWidth) * 100;
+    //        const gradientY = (y / window.innerHeight) * 100;
+
+    //        const gradientColors = [
+    //            '#0056b3',
+    //            '#0073e6',
+    //            '#0090ff',
+    //            '#00adff',
+    //            '#00cbff'
+    //        ];
+
+    //        const colorIndex = Math.floor(gradientX / (100 / gradientColors.length));
+
+    //        const sidebarContainer = document.getElementById('sidebar-container');
+    //        sidebarContainer.style.transition = 'background 0.5s ease'; // Add transition
+    //        sidebarContainer.style.backgroundImage = `radial-gradient(circle at ${gradientX}% ${gradientY}%, ${gradientColors[colorIndex]}, #fff)`;
+    //    });
+    //});
+
+    //    function toggleMenuItemsVisibility() {
+    //    const menuItems = document.getElementById('sidebar-menu-items');
+    //    menuItems.classList.toggle('hidden-menu-items');
+    //}
+
+    //    document.getElementById('toggleSidebarButton').addEventListener('click', toggleMenuItemsVisibility);
+
+
+
+    document.addEventListener('DOMContentLoaded', function () {
+        function toggleMenuItemsVisibility() {
+            const menuItems = document.querySelectorAll('.menu-item');
+            menuItems.forEach(item => {
+                item.classList.toggle('hidden-menu-items');
+            });
+        }
+
+        document.getElementById('toggleVerticalMenuButton').addEventListener('click', function () {
+            toggleMenuItemsVisibility();
+        });
+    });
+
+</script>
+
+
+
+

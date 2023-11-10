@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="eBilling6MonthsModelStoreContainer" CdmEntityContainer="eBilling6Months">
+    <EntitySetMapping Name="Statistics">
+      <EntityTypeMapping TypeName="eBilling6MonthsModel.Statistic">
+        <MappingFragment StoreEntitySet="Statistics">
+          <ScalarProperty Name="Errors" ColumnName="Errors" />
+          <ScalarProperty Name="CompletedEmails" ColumnName="CompletedEmails" />
+          <ScalarProperty Name="PendingEmails" ColumnName="PendingEmails" />
+          <ScalarProperty Name="ExpectedAccounts" ColumnName="ExpectedAccounts" />
+          <ScalarProperty Name="EmailAccounts" ColumnName="EmailAccounts" />
+          <ScalarProperty Name="Accounts" ColumnName="Accounts" />
+          <ScalarProperty Name="BillDate" ColumnName="BillDate" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="QueueArchives">
+      <EntityTypeMapping TypeName="eBilling6MonthsModel.QueueArchive">
+        <MappingFragment StoreEntitySet="QueueArchive">
+          <ScalarProperty Name="StatusId" ColumnName="StatusId" />
+          <ScalarProperty Name="ArchivedDateTime" ColumnName="ArchivedDateTime" />
+          <ScalarProperty Name="ProcessedDateTime" ColumnName="ProcessedDateTime" />
+          <ScalarProperty Name="QueueDateTime" ColumnName="QueueDateTime" />
+          <ScalarProperty Name="EmailAddressCc" ColumnName="EmailAddressCc" />
+          <ScalarProperty Name="EmailAddressTo" ColumnName="EmailAddressTo" />
+          <ScalarProperty Name="EmailSubject" ColumnName="EmailSubject" />
+          <ScalarProperty Name="CustomerAccountName" ColumnName="CustomerAccountName" />
+          <ScalarProperty Name="AccountNumber" ColumnName="AccountNumber" />
+          <ScalarProperty Name="BillDate" ColumnName="BillDate" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="QueuePendings">
+      <EntityTypeMapping TypeName="eBilling6MonthsModel.QueuePending">
+        <MappingFragment StoreEntitySet="QueuePending">
+          <ScalarProperty Name="StatusId" ColumnName="StatusId" />
+          <ScalarProperty Name="ProcessedDateTime" ColumnName="ProcessedDateTime" />
+          <ScalarProperty Name="QueueDateTime" ColumnName="QueueDateTime" />
+          <ScalarProperty Name="EmailAddressCc" ColumnName="EmailAddressCc" />
+          <ScalarProperty Name="EmailAddressTo" ColumnName="EmailAddressTo" />
+          <ScalarProperty Name="EmailSubject" ColumnName="EmailSubject" />
+          <ScalarProperty Name="CustomerAccountName" ColumnName="CustomerAccountName" />
+          <ScalarProperty Name="AccountNumber" ColumnName="AccountNumber" />
+          <ScalarProperty Name="BillDate" ColumnName="BillDate" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SystemErrors">
+      <EntityTypeMapping TypeName="eBilling6MonthsModel.SystemError">
+        <MappingFragment StoreEntitySet="SystemErrors">
+          <ScalarProperty Name="Details" ColumnName="Details" />
+          <ScalarProperty Name="ErrorDateTime" ColumnName="ErrorDateTime" />
+          <ScalarProperty Name="QueueId" ColumnName="QueueId" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="pr_REPORT_BillingHistorySummary" FunctionName="eBilling6MonthsModel.Store.pr_REPORT_BillingHistorySummary">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="eBilling6MonthsModel.pr_REPORT_BillingHistorySummary_Result">
+          <ScalarProperty Name="Year" ColumnName="Year" />
+          <ScalarProperty Name="BillDate" ColumnName="BillDate" />
+          <ScalarProperty Name="AccountNumber" ColumnName="AccountNumber" />
+          <ScalarProperty Name="BalanceBroughtForward" ColumnName="BalanceBroughtForward" />
+          <ScalarProperty Name="Payments" ColumnName="Payments" />
+          <ScalarProperty Name="Electricity" ColumnName="Electricity" />
+          <ScalarProperty Name="Water" ColumnName="Water" />
+          <ScalarProperty Name="Sewage" ColumnName="Sewage" />
+          <ScalarProperty Name="Rates" ColumnName="Rates" />
+          <ScalarProperty Name="Vat" ColumnName="Vat" />
+          <ScalarProperty Name="Other" ColumnName="Other" />
+          <ScalarProperty Name="Multiplier" ColumnName="Multiplier" />
+          <ScalarProperty Name="Total" ColumnName="Total" />
+          <ScalarProperty Name="DownloadLink" ColumnName="DownloadLink" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="pr_REPORT_BillingHistory" FunctionName="eBilling6MonthsModel.Store.pr_REPORT_BillingHistory">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="eBilling6MonthsModel.pr_REPORT_BillingHistory_Result">
+          <ScalarProperty Name="Year" ColumnName="Year" />
+          <ScalarProperty Name="BillDate" ColumnName="BillDate" />
+          <ScalarProperty Name="AccountNumber" ColumnName="AccountNumber" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="AccountBodySection3" ColumnName="AccountBodySection3" />
+          <ScalarProperty Name="BalanceBroughtForward" ColumnName="BalanceBroughtForward" />
+          <ScalarProperty Name="Payments" ColumnName="Payments" />
+          <ScalarProperty Name="Electricity" ColumnName="Electricity" />
+          <ScalarProperty Name="Water" ColumnName="Water" />
+          <ScalarProperty Name="Sewage" ColumnName="Sewage" />
+          <ScalarProperty Name="Rates" ColumnName="Rates" />
+          <ScalarProperty Name="Vat" ColumnName="Vat" />
+          <ScalarProperty Name="Other" ColumnName="Other" />
+          <ScalarProperty Name="Multiplier" ColumnName="Multiplier" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="pr_REPORT_BillingHistoryDetails" FunctionName="eBilling6MonthsModel.Store.pr_REPORT_BillingHistoryDetails">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="eBilling6MonthsModel.pr_REPORT_BillingHistoryDetails_Result">
+          <ScalarProperty Name="Year" ColumnName="Year" />
+          <ScalarProperty Name="BillDate" ColumnName="BillDate" />
+          <ScalarProperty Name="AccountNumber" ColumnName="AccountNumber" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="AccountBodySection3" ColumnName="AccountBodySection3" />
+          <ScalarProperty Name="BalanceBroughtForward" ColumnName="BalanceBroughtForward" />
+          <ScalarProperty Name="Payments" ColumnName="Payments" />
+          <ScalarProperty Name="Electricity" ColumnName="Electricity" />
+          <ScalarProperty Name="Water" ColumnName="Water" />
+          <ScalarProperty Name="Sewage" ColumnName="Sewage" />
+          <ScalarProperty Name="Rates" ColumnName="Rates" />
+          <ScalarProperty Name="Vat" ColumnName="Vat" />
+          <ScalarProperty Name="Other" ColumnName="Other" />
+          <ScalarProperty Name="Multiplier" ColumnName="Multiplier" />
+          <ScalarProperty Name="Total" ColumnName="Total" />
+          <ScalarProperty Name="DownloadLink" ColumnName="DownloadLink" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="pr_SCRIPT_RequeueBill" FunctionName="eBilling6MonthsModel.Store.pr_SCRIPT_RequeueBill">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="eBilling6MonthsModel.pr_SCRIPT_RequeueBill_Result">
+          <ScalarProperty Name="ErrorNumber" ColumnName="ErrorNumber" />
+          <ScalarProperty Name="ErrorSeverity" ColumnName="ErrorSeverity" />
+          <ScalarProperty Name="ErrorState" ColumnName="ErrorState" />
+          <ScalarProperty Name="ErrorProcedure" ColumnName="ErrorProcedure" />
+          <ScalarProperty Name="ErrorLine" ColumnName="ErrorLine" />
+          <ScalarProperty Name="ErrorMessage" ColumnName="ErrorMessage" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <EntitySetMapping Name="BillsArchives">
+      <EntityTypeMapping TypeName="eBilling6MonthsModel.BillsArchive">
+        <MappingFragment StoreEntitySet="BillsArchive">
+          <ScalarProperty Name="ProcessedDateTime" ColumnName="ProcessedDateTime" />
+          <ScalarProperty Name="Filename" ColumnName="Filename" />
+          <ScalarProperty Name="Path" ColumnName="Path" />
+          <ScalarProperty Name="QueueId" ColumnName="QueueId" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

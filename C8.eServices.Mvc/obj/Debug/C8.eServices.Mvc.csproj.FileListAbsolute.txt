@@ -1,0 +1,918 @@
+C:\Users\admin\Desktop\Siyakhokha Dev - Copy\C8.eServices.Mvc\obj\Debug\C8.eServices.Mvc.csprojAssemblyReference.cache
+C:\Users\admin\Desktop\Siyakhokha Dev - Copy\C8.eServices.Mvc\obj\Debug\C8.eServices.Mvc.dll
+C:\Users\admin\Desktop\Siyakhokha Dev - Copy\C8.eServices.Mvc\obj\Debug\C8.eServices.Mvc.pdb
+C:\Users\admin\Desktop\Siyakhokha Dev - Copy\C8.eServices.Mvc\bin\C8.eServices.Mvc.dll.config
+C:\Users\admin\Desktop\Siyakhokha Dev - Copy\C8.eServices.Mvc\bin\C8.eServices.Mvc.dll
+C:\Users\admin\Desktop\Siyakhokha Dev - Copy\C8.eServices.Mvc\bin\C8.eServices.Mvc.pdb
+C:\Users\admin\Desktop\Siyakhokha Dev - Copy\C8.eServices.Mvc\bin\Antlr3.Runtime.dll
+C:\Users\admin\Desktop\Siyakhokha Dev - Copy\C8.eServices.Mvc\bin\BouncyCastle.Crypto.dll
+C:\Users\admin\Desktop\Siyakhokha Dev - Copy\C8.eServices.Mvc\bin\Common.Logging.Core.dll
+C:\Users\admin\Desktop\Siyakhokha Dev - Copy\C8.eServices.Mvc\bin\Common.Logging.dll
+C:\Users\admin\Desktop\Siyakhokha Dev - Copy\C8.eServices.Mvc\bin\DotNetZip.dll
+C:\Users\admin\Desktop\Siyakhokha Dev - Copy\C8.eServices.Mvc\bin\Elmah.Contrib.EntityFramework.dll
+C:\Users\admin\Desktop\Siyakhokha Dev - Copy\C8.eServices.Mvc\bin\Elmah.dll
+C:\Users\admin\Desktop\Siyakhokha Dev - Copy\C8.eServices.Mvc\bin\Elmah.Mvc.dll
+C:\Users\admin\Desktop\Siyakhokha Dev - Copy\C8.eServices.Mvc\bin\EntityFramework.dll
+C:\Users\admin\Desktop\Siyakhokha Dev - Copy\C8.eServices.Mvc\bin\EntityFramework.SqlServer.dll
+C:\Users\admin\Desktop\Siyakhokha Dev - Copy\C8.eServices.Mvc\bin\EPPlus.dll
+C:\Users\admin\Desktop\Siyakhokha Dev - Copy\C8.eServices.Mvc\bin\itextsharp.dll
+C:\Users\admin\Desktop\Siyakhokha Dev - Copy\C8.eServices.Mvc\bin\itextsharp.xmlworker.dll
+C:\Users\admin\Desktop\Siyakhokha Dev - Copy\C8.eServices.Mvc\bin\JamaaTech.Smpp.Net.Client.dll
+C:\Users\admin\Desktop\Siyakhokha Dev - Copy\C8.eServices.Mvc\bin\JamaaTech.Smpp.Net.Lib.dll
+C:\Users\admin\Desktop\Siyakhokha Dev - Copy\C8.eServices.Mvc\bin\MailKit.dll
+C:\Users\admin\Desktop\Siyakhokha Dev - Copy\C8.eServices.Mvc\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\admin\Desktop\Siyakhokha Dev - Copy\C8.eServices.Mvc\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\admin\Desktop\Siyakhokha Dev - Copy\C8.eServices.Mvc\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\admin\Desktop\Siyakhokha Dev - Copy\C8.eServices.Mvc\bin\Microsoft.Owin.dll
+C:\Users\admin\Desktop\Siyakhokha Dev - Copy\C8.eServices.Mvc\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\admin\Desktop\Siyakhokha Dev - Copy\C8.eServices.Mvc\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\admin\Desktop\Siyakhokha Dev - Copy\C8.eServices.Mvc\bin\Microsoft.Owin.Security.dll
+C:\Users\admin\Desktop\Siyakhokha Dev - Copy\C8.eServices.Mvc\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\admin\Desktop\Siyakhokha Dev - Copy\C8.eServices.Mvc\bin\Microsoft.ReportViewer.Common.dll
+C:\Users\admin\Desktop\Siyakhokha Dev - Copy\C8.eServices.Mvc\bin\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\admin\Desktop\Siyakhokha Dev - Copy\C8.eServices.Mvc\bin\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\admin\Desktop\Siyakhokha Dev - Copy\C8.eServices.Mvc\bin\Microsoft.ReportViewer.WebForms.dll
+C:\Users\admin\Desktop\Siyakhokha Dev - Copy\C8.eServices.Mvc\bin\Microsoft.SharePoint.Client.dll
+C:\Users\admin\Desktop\Siyakhokha Dev - Copy\C8.eServices.Mvc\bin\Microsoft.SharePoint.Client.Runtime.dll
+C:\Users\admin\Desktop\Siyakhokha Dev - Copy\C8.eServices.Mvc\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\admin\Desktop\Siyakhokha Dev - Copy\C8.eServices.Mvc\bin\MimeKit.dll
+C:\Users\admin\Desktop\Siyakhokha Dev - Copy\C8.eServices.Mvc\bin\MoreLinq.dll
+C:\Users\admin\Desktop\Siyakhokha Dev - Copy\C8.eServices.Mvc\bin\Newtonsoft.Json.dll
+C:\Users\admin\Desktop\Siyakhokha Dev - Copy\C8.eServices.Mvc\bin\Owin.dll
+C:\Users\admin\Desktop\Siyakhokha Dev - Copy\C8.eServices.Mvc\bin\PdfSharp.dll
+C:\Users\admin\Desktop\Siyakhokha Dev - Copy\C8.eServices.Mvc\bin\Rotativa.Core.dll
+C:\Users\admin\Desktop\Siyakhokha Dev - Copy\C8.eServices.Mvc\bin\Rotativa.dll
+C:\Users\admin\Desktop\Siyakhokha Dev - Copy\C8.eServices.Mvc\bin\System.Linq.Dynamic.dll
+C:\Users\admin\Desktop\Siyakhokha Dev - Copy\C8.eServices.Mvc\bin\System.Net.Http.Formatting.dll
+C:\Users\admin\Desktop\Siyakhokha Dev - Copy\C8.eServices.Mvc\bin\System.ValueTuple.dll
+C:\Users\admin\Desktop\Siyakhokha Dev - Copy\C8.eServices.Mvc\bin\System.Web.Cors.dll
+C:\Users\admin\Desktop\Siyakhokha Dev - Copy\C8.eServices.Mvc\bin\System.Web.Helpers.dll
+C:\Users\admin\Desktop\Siyakhokha Dev - Copy\C8.eServices.Mvc\bin\System.Web.Http.Cors.dll
+C:\Users\admin\Desktop\Siyakhokha Dev - Copy\C8.eServices.Mvc\bin\System.Web.Http.dll
+C:\Users\admin\Desktop\Siyakhokha Dev - Copy\C8.eServices.Mvc\bin\System.Web.Http.WebHost.dll
+C:\Users\admin\Desktop\Siyakhokha Dev - Copy\C8.eServices.Mvc\bin\System.Web.Mvc.dll
+C:\Users\admin\Desktop\Siyakhokha Dev - Copy\C8.eServices.Mvc\bin\System.Web.Optimization.dll
+C:\Users\admin\Desktop\Siyakhokha Dev - Copy\C8.eServices.Mvc\bin\System.Web.Razor.dll
+C:\Users\admin\Desktop\Siyakhokha Dev - Copy\C8.eServices.Mvc\bin\System.Web.WebPages.Deployment.dll
+C:\Users\admin\Desktop\Siyakhokha Dev - Copy\C8.eServices.Mvc\bin\System.Web.WebPages.dll
+C:\Users\admin\Desktop\Siyakhokha Dev - Copy\C8.eServices.Mvc\bin\System.Web.WebPages.Razor.dll
+C:\Users\admin\Desktop\Siyakhokha Dev - Copy\C8.eServices.Mvc\bin\WebGrease.dll
+C:\Users\admin\Desktop\Siyakhokha Dev - Copy\C8.eServices.Mvc\bin\Antlr3.Runtime.pdb
+C:\Users\admin\Desktop\Siyakhokha Dev - Copy\C8.eServices.Mvc\bin\Common.Logging.pdb
+C:\Users\admin\Desktop\Siyakhokha Dev - Copy\C8.eServices.Mvc\bin\Common.Logging.xml
+C:\Users\admin\Desktop\Siyakhokha Dev - Copy\C8.eServices.Mvc\bin\Common.Logging.Core.pdb
+C:\Users\admin\Desktop\Siyakhokha Dev - Copy\C8.eServices.Mvc\bin\Common.Logging.Core.xml
+C:\Users\admin\Desktop\Siyakhokha Dev - Copy\C8.eServices.Mvc\bin\DotNetZip.xml
+C:\Users\admin\Desktop\Siyakhokha Dev - Copy\C8.eServices.Mvc\bin\Elmah.Contrib.EntityFramework.pdb
+C:\Users\admin\Desktop\Siyakhokha Dev - Copy\C8.eServices.Mvc\bin\EntityFramework.xml
+C:\Users\admin\Desktop\Siyakhokha Dev - Copy\C8.eServices.Mvc\bin\EntityFramework.SqlServer.xml
+C:\Users\admin\Desktop\Siyakhokha Dev - Copy\C8.eServices.Mvc\bin\EPPlus.xml
+C:\Users\admin\Desktop\Siyakhokha Dev - Copy\C8.eServices.Mvc\bin\itextsharp.xml
+C:\Users\admin\Desktop\Siyakhokha Dev - Copy\C8.eServices.Mvc\bin\JamaaTech.Smpp.Net.Client.pdb
+C:\Users\admin\Desktop\Siyakhokha Dev - Copy\C8.eServices.Mvc\bin\JamaaTech.Smpp.Net.Lib.pdb
+C:\Users\admin\Desktop\Siyakhokha Dev - Copy\C8.eServices.Mvc\bin\MailKit.xml
+C:\Users\admin\Desktop\Siyakhokha Dev - Copy\C8.eServices.Mvc\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\admin\Desktop\Siyakhokha Dev - Copy\C8.eServices.Mvc\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\admin\Desktop\Siyakhokha Dev - Copy\C8.eServices.Mvc\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\admin\Desktop\Siyakhokha Dev - Copy\C8.eServices.Mvc\bin\Microsoft.Owin.xml
+C:\Users\admin\Desktop\Siyakhokha Dev - Copy\C8.eServices.Mvc\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\admin\Desktop\Siyakhokha Dev - Copy\C8.eServices.Mvc\bin\Microsoft.Owin.Security.xml
+C:\Users\admin\Desktop\Siyakhokha Dev - Copy\C8.eServices.Mvc\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\admin\Desktop\Siyakhokha Dev - Copy\C8.eServices.Mvc\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\admin\Desktop\Siyakhokha Dev - Copy\C8.eServices.Mvc\bin\MimeKit.xml
+C:\Users\admin\Desktop\Siyakhokha Dev - Copy\C8.eServices.Mvc\bin\MoreLinq.xml
+C:\Users\admin\Desktop\Siyakhokha Dev - Copy\C8.eServices.Mvc\bin\Newtonsoft.Json.xml
+C:\Users\admin\Desktop\Siyakhokha Dev - Copy\C8.eServices.Mvc\bin\System.Net.Http.Formatting.xml
+C:\Users\admin\Desktop\Siyakhokha Dev - Copy\C8.eServices.Mvc\bin\System.ValueTuple.xml
+C:\Users\admin\Desktop\Siyakhokha Dev - Copy\C8.eServices.Mvc\bin\System.Web.Helpers.xml
+C:\Users\admin\Desktop\Siyakhokha Dev - Copy\C8.eServices.Mvc\bin\System.Web.Http.xml
+C:\Users\admin\Desktop\Siyakhokha Dev - Copy\C8.eServices.Mvc\bin\System.Web.Http.Cors.xml
+C:\Users\admin\Desktop\Siyakhokha Dev - Copy\C8.eServices.Mvc\bin\System.Web.Http.WebHost.xml
+C:\Users\admin\Desktop\Siyakhokha Dev - Copy\C8.eServices.Mvc\bin\System.Web.Mvc.xml
+C:\Users\admin\Desktop\Siyakhokha Dev - Copy\C8.eServices.Mvc\bin\System.Web.Optimization.xml
+C:\Users\admin\Desktop\Siyakhokha Dev - Copy\C8.eServices.Mvc\bin\System.Web.Razor.xml
+C:\Users\admin\Desktop\Siyakhokha Dev - Copy\C8.eServices.Mvc\bin\System.Web.WebPages.xml
+C:\Users\admin\Desktop\Siyakhokha Dev - Copy\C8.eServices.Mvc\bin\System.Web.WebPages.Deployment.xml
+C:\Users\admin\Desktop\Siyakhokha Dev - Copy\C8.eServices.Mvc\bin\System.Web.WebPages.Razor.xml
+C:\Users\admin\Desktop\Siyakhokha Dev - Copy\C8.eServices.Mvc\obj\Debug\C8.eServices.Mvc.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\Siyakhokha Dev - Copy\C8.eServices.Mvc\obj\Debug\C8.eServices.Mvc.csproj.CopyComplete
+C:\Users\Nonjabulo\Desktop\SiyaTest\Siyakhokha Dev\C8.eServices.Mvc\bin\C8.eServices.Mvc.dll.config
+C:\Users\Nonjabulo\Desktop\SiyaTest\Siyakhokha Dev\C8.eServices.Mvc\bin\C8.eServices.Mvc.dll
+C:\Users\Nonjabulo\Desktop\SiyaTest\Siyakhokha Dev\C8.eServices.Mvc\bin\C8.eServices.Mvc.pdb
+C:\Users\Nonjabulo\Desktop\SiyaTest\Siyakhokha Dev\C8.eServices.Mvc\bin\Antlr3.Runtime.dll
+C:\Users\Nonjabulo\Desktop\SiyaTest\Siyakhokha Dev\C8.eServices.Mvc\bin\BouncyCastle.Crypto.dll
+C:\Users\Nonjabulo\Desktop\SiyaTest\Siyakhokha Dev\C8.eServices.Mvc\bin\Common.Logging.Core.dll
+C:\Users\Nonjabulo\Desktop\SiyaTest\Siyakhokha Dev\C8.eServices.Mvc\bin\Common.Logging.dll
+C:\Users\Nonjabulo\Desktop\SiyaTest\Siyakhokha Dev\C8.eServices.Mvc\bin\DotNetZip.dll
+C:\Users\Nonjabulo\Desktop\SiyaTest\Siyakhokha Dev\C8.eServices.Mvc\bin\Elmah.Contrib.EntityFramework.dll
+C:\Users\Nonjabulo\Desktop\SiyaTest\Siyakhokha Dev\C8.eServices.Mvc\bin\Elmah.dll
+C:\Users\Nonjabulo\Desktop\SiyaTest\Siyakhokha Dev\C8.eServices.Mvc\bin\Elmah.Mvc.dll
+C:\Users\Nonjabulo\Desktop\SiyaTest\Siyakhokha Dev\C8.eServices.Mvc\bin\EntityFramework.dll
+C:\Users\Nonjabulo\Desktop\SiyaTest\Siyakhokha Dev\C8.eServices.Mvc\bin\EntityFramework.SqlServer.dll
+C:\Users\Nonjabulo\Desktop\SiyaTest\Siyakhokha Dev\C8.eServices.Mvc\bin\EPPlus.dll
+C:\Users\Nonjabulo\Desktop\SiyaTest\Siyakhokha Dev\C8.eServices.Mvc\bin\itextsharp.dll
+C:\Users\Nonjabulo\Desktop\SiyaTest\Siyakhokha Dev\C8.eServices.Mvc\bin\itextsharp.xmlworker.dll
+C:\Users\Nonjabulo\Desktop\SiyaTest\Siyakhokha Dev\C8.eServices.Mvc\bin\JamaaTech.Smpp.Net.Client.dll
+C:\Users\Nonjabulo\Desktop\SiyaTest\Siyakhokha Dev\C8.eServices.Mvc\bin\JamaaTech.Smpp.Net.Lib.dll
+C:\Users\Nonjabulo\Desktop\SiyaTest\Siyakhokha Dev\C8.eServices.Mvc\bin\MailKit.dll
+C:\Users\Nonjabulo\Desktop\SiyaTest\Siyakhokha Dev\C8.eServices.Mvc\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Nonjabulo\Desktop\SiyaTest\Siyakhokha Dev\C8.eServices.Mvc\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Nonjabulo\Desktop\SiyaTest\Siyakhokha Dev\C8.eServices.Mvc\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Nonjabulo\Desktop\SiyaTest\Siyakhokha Dev\C8.eServices.Mvc\bin\Microsoft.Owin.dll
+C:\Users\Nonjabulo\Desktop\SiyaTest\Siyakhokha Dev\C8.eServices.Mvc\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Nonjabulo\Desktop\SiyaTest\Siyakhokha Dev\C8.eServices.Mvc\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Nonjabulo\Desktop\SiyaTest\Siyakhokha Dev\C8.eServices.Mvc\bin\Microsoft.Owin.Security.dll
+C:\Users\Nonjabulo\Desktop\SiyaTest\Siyakhokha Dev\C8.eServices.Mvc\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Nonjabulo\Desktop\SiyaTest\Siyakhokha Dev\C8.eServices.Mvc\bin\Microsoft.ReportViewer.Common.dll
+C:\Users\Nonjabulo\Desktop\SiyaTest\Siyakhokha Dev\C8.eServices.Mvc\bin\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\Nonjabulo\Desktop\SiyaTest\Siyakhokha Dev\C8.eServices.Mvc\bin\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\Nonjabulo\Desktop\SiyaTest\Siyakhokha Dev\C8.eServices.Mvc\bin\Microsoft.ReportViewer.WebForms.dll
+C:\Users\Nonjabulo\Desktop\SiyaTest\Siyakhokha Dev\C8.eServices.Mvc\bin\Microsoft.SharePoint.Client.dll
+C:\Users\Nonjabulo\Desktop\SiyaTest\Siyakhokha Dev\C8.eServices.Mvc\bin\Microsoft.SharePoint.Client.Runtime.dll
+C:\Users\Nonjabulo\Desktop\SiyaTest\Siyakhokha Dev\C8.eServices.Mvc\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Nonjabulo\Desktop\SiyaTest\Siyakhokha Dev\C8.eServices.Mvc\bin\MimeKit.dll
+C:\Users\Nonjabulo\Desktop\SiyaTest\Siyakhokha Dev\C8.eServices.Mvc\bin\MoreLinq.dll
+C:\Users\Nonjabulo\Desktop\SiyaTest\Siyakhokha Dev\C8.eServices.Mvc\bin\Newtonsoft.Json.dll
+C:\Users\Nonjabulo\Desktop\SiyaTest\Siyakhokha Dev\C8.eServices.Mvc\bin\Owin.dll
+C:\Users\Nonjabulo\Desktop\SiyaTest\Siyakhokha Dev\C8.eServices.Mvc\bin\PdfSharp.dll
+C:\Users\Nonjabulo\Desktop\SiyaTest\Siyakhokha Dev\C8.eServices.Mvc\bin\RestSharp.dll
+C:\Users\Nonjabulo\Desktop\SiyaTest\Siyakhokha Dev\C8.eServices.Mvc\bin\Rotativa.Core.dll
+C:\Users\Nonjabulo\Desktop\SiyaTest\Siyakhokha Dev\C8.eServices.Mvc\bin\Rotativa.dll
+C:\Users\Nonjabulo\Desktop\SiyaTest\Siyakhokha Dev\C8.eServices.Mvc\bin\System.Linq.Dynamic.dll
+C:\Users\Nonjabulo\Desktop\SiyaTest\Siyakhokha Dev\C8.eServices.Mvc\bin\System.Net.Http.Formatting.dll
+C:\Users\Nonjabulo\Desktop\SiyaTest\Siyakhokha Dev\C8.eServices.Mvc\bin\System.ValueTuple.dll
+C:\Users\Nonjabulo\Desktop\SiyaTest\Siyakhokha Dev\C8.eServices.Mvc\bin\System.Web.Cors.dll
+C:\Users\Nonjabulo\Desktop\SiyaTest\Siyakhokha Dev\C8.eServices.Mvc\bin\System.Web.Helpers.dll
+C:\Users\Nonjabulo\Desktop\SiyaTest\Siyakhokha Dev\C8.eServices.Mvc\bin\System.Web.Http.Cors.dll
+C:\Users\Nonjabulo\Desktop\SiyaTest\Siyakhokha Dev\C8.eServices.Mvc\bin\System.Web.Http.dll
+C:\Users\Nonjabulo\Desktop\SiyaTest\Siyakhokha Dev\C8.eServices.Mvc\bin\System.Web.Http.WebHost.dll
+C:\Users\Nonjabulo\Desktop\SiyaTest\Siyakhokha Dev\C8.eServices.Mvc\bin\System.Web.Mvc.dll
+C:\Users\Nonjabulo\Desktop\SiyaTest\Siyakhokha Dev\C8.eServices.Mvc\bin\System.Web.Optimization.dll
+C:\Users\Nonjabulo\Desktop\SiyaTest\Siyakhokha Dev\C8.eServices.Mvc\bin\System.Web.Razor.dll
+C:\Users\Nonjabulo\Desktop\SiyaTest\Siyakhokha Dev\C8.eServices.Mvc\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Nonjabulo\Desktop\SiyaTest\Siyakhokha Dev\C8.eServices.Mvc\bin\System.Web.WebPages.dll
+C:\Users\Nonjabulo\Desktop\SiyaTest\Siyakhokha Dev\C8.eServices.Mvc\bin\System.Web.WebPages.Razor.dll
+C:\Users\Nonjabulo\Desktop\SiyaTest\Siyakhokha Dev\C8.eServices.Mvc\bin\WebGrease.dll
+C:\Users\Nonjabulo\Desktop\SiyaTest\Siyakhokha Dev\C8.eServices.Mvc\bin\Antlr3.Runtime.pdb
+C:\Users\Nonjabulo\Desktop\SiyaTest\Siyakhokha Dev\C8.eServices.Mvc\bin\Common.Logging.pdb
+C:\Users\Nonjabulo\Desktop\SiyaTest\Siyakhokha Dev\C8.eServices.Mvc\bin\Common.Logging.xml
+C:\Users\Nonjabulo\Desktop\SiyaTest\Siyakhokha Dev\C8.eServices.Mvc\bin\Common.Logging.Core.pdb
+C:\Users\Nonjabulo\Desktop\SiyaTest\Siyakhokha Dev\C8.eServices.Mvc\bin\Common.Logging.Core.xml
+C:\Users\Nonjabulo\Desktop\SiyaTest\Siyakhokha Dev\C8.eServices.Mvc\bin\DotNetZip.xml
+C:\Users\Nonjabulo\Desktop\SiyaTest\Siyakhokha Dev\C8.eServices.Mvc\bin\Elmah.Contrib.EntityFramework.pdb
+C:\Users\Nonjabulo\Desktop\SiyaTest\Siyakhokha Dev\C8.eServices.Mvc\bin\EntityFramework.xml
+C:\Users\Nonjabulo\Desktop\SiyaTest\Siyakhokha Dev\C8.eServices.Mvc\bin\EntityFramework.SqlServer.xml
+C:\Users\Nonjabulo\Desktop\SiyaTest\Siyakhokha Dev\C8.eServices.Mvc\bin\EPPlus.xml
+C:\Users\Nonjabulo\Desktop\SiyaTest\Siyakhokha Dev\C8.eServices.Mvc\bin\itextsharp.xml
+C:\Users\Nonjabulo\Desktop\SiyaTest\Siyakhokha Dev\C8.eServices.Mvc\bin\JamaaTech.Smpp.Net.Client.pdb
+C:\Users\Nonjabulo\Desktop\SiyaTest\Siyakhokha Dev\C8.eServices.Mvc\bin\JamaaTech.Smpp.Net.Lib.pdb
+C:\Users\Nonjabulo\Desktop\SiyaTest\Siyakhokha Dev\C8.eServices.Mvc\bin\MailKit.xml
+C:\Users\Nonjabulo\Desktop\SiyaTest\Siyakhokha Dev\C8.eServices.Mvc\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Nonjabulo\Desktop\SiyaTest\Siyakhokha Dev\C8.eServices.Mvc\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Nonjabulo\Desktop\SiyaTest\Siyakhokha Dev\C8.eServices.Mvc\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Nonjabulo\Desktop\SiyaTest\Siyakhokha Dev\C8.eServices.Mvc\bin\Microsoft.Owin.xml
+C:\Users\Nonjabulo\Desktop\SiyaTest\Siyakhokha Dev\C8.eServices.Mvc\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Nonjabulo\Desktop\SiyaTest\Siyakhokha Dev\C8.eServices.Mvc\bin\Microsoft.Owin.Security.xml
+C:\Users\Nonjabulo\Desktop\SiyaTest\Siyakhokha Dev\C8.eServices.Mvc\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Nonjabulo\Desktop\SiyaTest\Siyakhokha Dev\C8.eServices.Mvc\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Nonjabulo\Desktop\SiyaTest\Siyakhokha Dev\C8.eServices.Mvc\bin\MimeKit.xml
+C:\Users\Nonjabulo\Desktop\SiyaTest\Siyakhokha Dev\C8.eServices.Mvc\bin\MoreLinq.xml
+C:\Users\Nonjabulo\Desktop\SiyaTest\Siyakhokha Dev\C8.eServices.Mvc\bin\Newtonsoft.Json.xml
+C:\Users\Nonjabulo\Desktop\SiyaTest\Siyakhokha Dev\C8.eServices.Mvc\bin\RestSharp.xml
+C:\Users\Nonjabulo\Desktop\SiyaTest\Siyakhokha Dev\C8.eServices.Mvc\bin\System.Net.Http.Formatting.xml
+C:\Users\Nonjabulo\Desktop\SiyaTest\Siyakhokha Dev\C8.eServices.Mvc\bin\System.ValueTuple.xml
+C:\Users\Nonjabulo\Desktop\SiyaTest\Siyakhokha Dev\C8.eServices.Mvc\bin\System.Web.Helpers.xml
+C:\Users\Nonjabulo\Desktop\SiyaTest\Siyakhokha Dev\C8.eServices.Mvc\bin\System.Web.Http.xml
+C:\Users\Nonjabulo\Desktop\SiyaTest\Siyakhokha Dev\C8.eServices.Mvc\bin\System.Web.Http.Cors.xml
+C:\Users\Nonjabulo\Desktop\SiyaTest\Siyakhokha Dev\C8.eServices.Mvc\bin\System.Web.Http.WebHost.xml
+C:\Users\Nonjabulo\Desktop\SiyaTest\Siyakhokha Dev\C8.eServices.Mvc\bin\System.Web.Mvc.xml
+C:\Users\Nonjabulo\Desktop\SiyaTest\Siyakhokha Dev\C8.eServices.Mvc\bin\System.Web.Optimization.xml
+C:\Users\Nonjabulo\Desktop\SiyaTest\Siyakhokha Dev\C8.eServices.Mvc\bin\System.Web.Razor.xml
+C:\Users\Nonjabulo\Desktop\SiyaTest\Siyakhokha Dev\C8.eServices.Mvc\bin\System.Web.WebPages.xml
+C:\Users\Nonjabulo\Desktop\SiyaTest\Siyakhokha Dev\C8.eServices.Mvc\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Nonjabulo\Desktop\SiyaTest\Siyakhokha Dev\C8.eServices.Mvc\bin\System.Web.WebPages.Razor.xml
+C:\Users\Nonjabulo\Desktop\SiyaTest\Siyakhokha Dev\C8.eServices.Mvc\obj\Debug\C8.eServices.Mvc.csprojAssemblyReference.cache
+C:\Users\Nonjabulo\Desktop\SiyaTest\Siyakhokha Dev\C8.eServices.Mvc\obj\Debug\C8.eServices.Mvc.csproj.CoreCompileInputs.cache
+C:\Users\Nonjabulo\Desktop\SiyaTest\Siyakhokha Dev\C8.eServices.Mvc\obj\Debug\C8.eServices.Mvc.csproj.CopyComplete
+C:\Users\Nonjabulo\Desktop\SiyaTest\Siyakhokha Dev\C8.eServices.Mvc\obj\Debug\C8.eServices.Mvc.dll
+C:\Users\Nonjabulo\Desktop\SiyaTest\Siyakhokha Dev\C8.eServices.Mvc\obj\Debug\C8.eServices.Mvc.pdb
+C:\Users\Nonjabulo\Desktop\CRM Work\Eservice Base\Siyakhokha Dev\C8.eServices.Mvc\bin\C8.eServices.Mvc.dll.config
+C:\Users\Nonjabulo\Desktop\CRM Work\Eservice Base\Siyakhokha Dev\C8.eServices.Mvc\bin\C8.eServices.Mvc.dll
+C:\Users\Nonjabulo\Desktop\CRM Work\Eservice Base\Siyakhokha Dev\C8.eServices.Mvc\bin\C8.eServices.Mvc.pdb
+C:\Users\Nonjabulo\Desktop\CRM Work\Eservice Base\Siyakhokha Dev\C8.eServices.Mvc\bin\Antlr3.Runtime.dll
+C:\Users\Nonjabulo\Desktop\CRM Work\Eservice Base\Siyakhokha Dev\C8.eServices.Mvc\bin\BouncyCastle.Crypto.dll
+C:\Users\Nonjabulo\Desktop\CRM Work\Eservice Base\Siyakhokha Dev\C8.eServices.Mvc\bin\Common.Logging.Core.dll
+C:\Users\Nonjabulo\Desktop\CRM Work\Eservice Base\Siyakhokha Dev\C8.eServices.Mvc\bin\Common.Logging.dll
+C:\Users\Nonjabulo\Desktop\CRM Work\Eservice Base\Siyakhokha Dev\C8.eServices.Mvc\bin\DotNetZip.dll
+C:\Users\Nonjabulo\Desktop\CRM Work\Eservice Base\Siyakhokha Dev\C8.eServices.Mvc\bin\Elmah.Contrib.EntityFramework.dll
+C:\Users\Nonjabulo\Desktop\CRM Work\Eservice Base\Siyakhokha Dev\C8.eServices.Mvc\bin\Elmah.dll
+C:\Users\Nonjabulo\Desktop\CRM Work\Eservice Base\Siyakhokha Dev\C8.eServices.Mvc\bin\Elmah.Mvc.dll
+C:\Users\Nonjabulo\Desktop\CRM Work\Eservice Base\Siyakhokha Dev\C8.eServices.Mvc\bin\EntityFramework.dll
+C:\Users\Nonjabulo\Desktop\CRM Work\Eservice Base\Siyakhokha Dev\C8.eServices.Mvc\bin\EntityFramework.SqlServer.dll
+C:\Users\Nonjabulo\Desktop\CRM Work\Eservice Base\Siyakhokha Dev\C8.eServices.Mvc\bin\EPPlus.dll
+C:\Users\Nonjabulo\Desktop\CRM Work\Eservice Base\Siyakhokha Dev\C8.eServices.Mvc\bin\itextsharp.dll
+C:\Users\Nonjabulo\Desktop\CRM Work\Eservice Base\Siyakhokha Dev\C8.eServices.Mvc\bin\itextsharp.xmlworker.dll
+C:\Users\Nonjabulo\Desktop\CRM Work\Eservice Base\Siyakhokha Dev\C8.eServices.Mvc\bin\JamaaTech.Smpp.Net.Client.dll
+C:\Users\Nonjabulo\Desktop\CRM Work\Eservice Base\Siyakhokha Dev\C8.eServices.Mvc\bin\JamaaTech.Smpp.Net.Lib.dll
+C:\Users\Nonjabulo\Desktop\CRM Work\Eservice Base\Siyakhokha Dev\C8.eServices.Mvc\bin\MailKit.dll
+C:\Users\Nonjabulo\Desktop\CRM Work\Eservice Base\Siyakhokha Dev\C8.eServices.Mvc\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Nonjabulo\Desktop\CRM Work\Eservice Base\Siyakhokha Dev\C8.eServices.Mvc\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Nonjabulo\Desktop\CRM Work\Eservice Base\Siyakhokha Dev\C8.eServices.Mvc\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Nonjabulo\Desktop\CRM Work\Eservice Base\Siyakhokha Dev\C8.eServices.Mvc\bin\Microsoft.Owin.dll
+C:\Users\Nonjabulo\Desktop\CRM Work\Eservice Base\Siyakhokha Dev\C8.eServices.Mvc\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Nonjabulo\Desktop\CRM Work\Eservice Base\Siyakhokha Dev\C8.eServices.Mvc\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Nonjabulo\Desktop\CRM Work\Eservice Base\Siyakhokha Dev\C8.eServices.Mvc\bin\Microsoft.Owin.Security.dll
+C:\Users\Nonjabulo\Desktop\CRM Work\Eservice Base\Siyakhokha Dev\C8.eServices.Mvc\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Nonjabulo\Desktop\CRM Work\Eservice Base\Siyakhokha Dev\C8.eServices.Mvc\bin\Microsoft.ReportViewer.Common.dll
+C:\Users\Nonjabulo\Desktop\CRM Work\Eservice Base\Siyakhokha Dev\C8.eServices.Mvc\bin\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\Nonjabulo\Desktop\CRM Work\Eservice Base\Siyakhokha Dev\C8.eServices.Mvc\bin\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\Nonjabulo\Desktop\CRM Work\Eservice Base\Siyakhokha Dev\C8.eServices.Mvc\bin\Microsoft.ReportViewer.WebForms.dll
+C:\Users\Nonjabulo\Desktop\CRM Work\Eservice Base\Siyakhokha Dev\C8.eServices.Mvc\bin\Microsoft.SharePoint.Client.dll
+C:\Users\Nonjabulo\Desktop\CRM Work\Eservice Base\Siyakhokha Dev\C8.eServices.Mvc\bin\Microsoft.SharePoint.Client.Runtime.dll
+C:\Users\Nonjabulo\Desktop\CRM Work\Eservice Base\Siyakhokha Dev\C8.eServices.Mvc\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Nonjabulo\Desktop\CRM Work\Eservice Base\Siyakhokha Dev\C8.eServices.Mvc\bin\MimeKit.dll
+C:\Users\Nonjabulo\Desktop\CRM Work\Eservice Base\Siyakhokha Dev\C8.eServices.Mvc\bin\MoreLinq.dll
+C:\Users\Nonjabulo\Desktop\CRM Work\Eservice Base\Siyakhokha Dev\C8.eServices.Mvc\bin\Newtonsoft.Json.dll
+C:\Users\Nonjabulo\Desktop\CRM Work\Eservice Base\Siyakhokha Dev\C8.eServices.Mvc\bin\Owin.dll
+C:\Users\Nonjabulo\Desktop\CRM Work\Eservice Base\Siyakhokha Dev\C8.eServices.Mvc\bin\PdfSharp.dll
+C:\Users\Nonjabulo\Desktop\CRM Work\Eservice Base\Siyakhokha Dev\C8.eServices.Mvc\bin\RestSharp.dll
+C:\Users\Nonjabulo\Desktop\CRM Work\Eservice Base\Siyakhokha Dev\C8.eServices.Mvc\bin\Rotativa.Core.dll
+C:\Users\Nonjabulo\Desktop\CRM Work\Eservice Base\Siyakhokha Dev\C8.eServices.Mvc\bin\Rotativa.dll
+C:\Users\Nonjabulo\Desktop\CRM Work\Eservice Base\Siyakhokha Dev\C8.eServices.Mvc\bin\System.Linq.Dynamic.dll
+C:\Users\Nonjabulo\Desktop\CRM Work\Eservice Base\Siyakhokha Dev\C8.eServices.Mvc\bin\System.Net.Http.Formatting.dll
+C:\Users\Nonjabulo\Desktop\CRM Work\Eservice Base\Siyakhokha Dev\C8.eServices.Mvc\bin\System.ValueTuple.dll
+C:\Users\Nonjabulo\Desktop\CRM Work\Eservice Base\Siyakhokha Dev\C8.eServices.Mvc\bin\System.Web.Cors.dll
+C:\Users\Nonjabulo\Desktop\CRM Work\Eservice Base\Siyakhokha Dev\C8.eServices.Mvc\bin\System.Web.Helpers.dll
+C:\Users\Nonjabulo\Desktop\CRM Work\Eservice Base\Siyakhokha Dev\C8.eServices.Mvc\bin\System.Web.Http.Cors.dll
+C:\Users\Nonjabulo\Desktop\CRM Work\Eservice Base\Siyakhokha Dev\C8.eServices.Mvc\bin\System.Web.Http.dll
+C:\Users\Nonjabulo\Desktop\CRM Work\Eservice Base\Siyakhokha Dev\C8.eServices.Mvc\bin\System.Web.Http.WebHost.dll
+C:\Users\Nonjabulo\Desktop\CRM Work\Eservice Base\Siyakhokha Dev\C8.eServices.Mvc\bin\System.Web.Mvc.dll
+C:\Users\Nonjabulo\Desktop\CRM Work\Eservice Base\Siyakhokha Dev\C8.eServices.Mvc\bin\System.Web.Optimization.dll
+C:\Users\Nonjabulo\Desktop\CRM Work\Eservice Base\Siyakhokha Dev\C8.eServices.Mvc\bin\System.Web.Razor.dll
+C:\Users\Nonjabulo\Desktop\CRM Work\Eservice Base\Siyakhokha Dev\C8.eServices.Mvc\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Nonjabulo\Desktop\CRM Work\Eservice Base\Siyakhokha Dev\C8.eServices.Mvc\bin\System.Web.WebPages.dll
+C:\Users\Nonjabulo\Desktop\CRM Work\Eservice Base\Siyakhokha Dev\C8.eServices.Mvc\bin\System.Web.WebPages.Razor.dll
+C:\Users\Nonjabulo\Desktop\CRM Work\Eservice Base\Siyakhokha Dev\C8.eServices.Mvc\bin\WebGrease.dll
+C:\Users\Nonjabulo\Desktop\CRM Work\Eservice Base\Siyakhokha Dev\C8.eServices.Mvc\bin\Antlr3.Runtime.pdb
+C:\Users\Nonjabulo\Desktop\CRM Work\Eservice Base\Siyakhokha Dev\C8.eServices.Mvc\bin\Common.Logging.pdb
+C:\Users\Nonjabulo\Desktop\CRM Work\Eservice Base\Siyakhokha Dev\C8.eServices.Mvc\bin\Common.Logging.xml
+C:\Users\Nonjabulo\Desktop\CRM Work\Eservice Base\Siyakhokha Dev\C8.eServices.Mvc\bin\Common.Logging.Core.pdb
+C:\Users\Nonjabulo\Desktop\CRM Work\Eservice Base\Siyakhokha Dev\C8.eServices.Mvc\bin\Common.Logging.Core.xml
+C:\Users\Nonjabulo\Desktop\CRM Work\Eservice Base\Siyakhokha Dev\C8.eServices.Mvc\bin\DotNetZip.xml
+C:\Users\Nonjabulo\Desktop\CRM Work\Eservice Base\Siyakhokha Dev\C8.eServices.Mvc\bin\Elmah.Contrib.EntityFramework.pdb
+C:\Users\Nonjabulo\Desktop\CRM Work\Eservice Base\Siyakhokha Dev\C8.eServices.Mvc\bin\EntityFramework.xml
+C:\Users\Nonjabulo\Desktop\CRM Work\Eservice Base\Siyakhokha Dev\C8.eServices.Mvc\bin\EntityFramework.SqlServer.xml
+C:\Users\Nonjabulo\Desktop\CRM Work\Eservice Base\Siyakhokha Dev\C8.eServices.Mvc\bin\EPPlus.xml
+C:\Users\Nonjabulo\Desktop\CRM Work\Eservice Base\Siyakhokha Dev\C8.eServices.Mvc\bin\itextsharp.xml
+C:\Users\Nonjabulo\Desktop\CRM Work\Eservice Base\Siyakhokha Dev\C8.eServices.Mvc\bin\JamaaTech.Smpp.Net.Client.pdb
+C:\Users\Nonjabulo\Desktop\CRM Work\Eservice Base\Siyakhokha Dev\C8.eServices.Mvc\bin\JamaaTech.Smpp.Net.Lib.pdb
+C:\Users\Nonjabulo\Desktop\CRM Work\Eservice Base\Siyakhokha Dev\C8.eServices.Mvc\bin\MailKit.xml
+C:\Users\Nonjabulo\Desktop\CRM Work\Eservice Base\Siyakhokha Dev\C8.eServices.Mvc\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Nonjabulo\Desktop\CRM Work\Eservice Base\Siyakhokha Dev\C8.eServices.Mvc\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Nonjabulo\Desktop\CRM Work\Eservice Base\Siyakhokha Dev\C8.eServices.Mvc\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Nonjabulo\Desktop\CRM Work\Eservice Base\Siyakhokha Dev\C8.eServices.Mvc\bin\Microsoft.Owin.xml
+C:\Users\Nonjabulo\Desktop\CRM Work\Eservice Base\Siyakhokha Dev\C8.eServices.Mvc\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Nonjabulo\Desktop\CRM Work\Eservice Base\Siyakhokha Dev\C8.eServices.Mvc\bin\Microsoft.Owin.Security.xml
+C:\Users\Nonjabulo\Desktop\CRM Work\Eservice Base\Siyakhokha Dev\C8.eServices.Mvc\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Nonjabulo\Desktop\CRM Work\Eservice Base\Siyakhokha Dev\C8.eServices.Mvc\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Nonjabulo\Desktop\CRM Work\Eservice Base\Siyakhokha Dev\C8.eServices.Mvc\bin\MimeKit.xml
+C:\Users\Nonjabulo\Desktop\CRM Work\Eservice Base\Siyakhokha Dev\C8.eServices.Mvc\bin\MoreLinq.xml
+C:\Users\Nonjabulo\Desktop\CRM Work\Eservice Base\Siyakhokha Dev\C8.eServices.Mvc\bin\Newtonsoft.Json.xml
+C:\Users\Nonjabulo\Desktop\CRM Work\Eservice Base\Siyakhokha Dev\C8.eServices.Mvc\bin\RestSharp.xml
+C:\Users\Nonjabulo\Desktop\CRM Work\Eservice Base\Siyakhokha Dev\C8.eServices.Mvc\bin\System.Net.Http.Formatting.xml
+C:\Users\Nonjabulo\Desktop\CRM Work\Eservice Base\Siyakhokha Dev\C8.eServices.Mvc\bin\System.ValueTuple.xml
+C:\Users\Nonjabulo\Desktop\CRM Work\Eservice Base\Siyakhokha Dev\C8.eServices.Mvc\bin\System.Web.Helpers.xml
+C:\Users\Nonjabulo\Desktop\CRM Work\Eservice Base\Siyakhokha Dev\C8.eServices.Mvc\bin\System.Web.Http.xml
+C:\Users\Nonjabulo\Desktop\CRM Work\Eservice Base\Siyakhokha Dev\C8.eServices.Mvc\bin\System.Web.Http.Cors.xml
+C:\Users\Nonjabulo\Desktop\CRM Work\Eservice Base\Siyakhokha Dev\C8.eServices.Mvc\bin\System.Web.Http.WebHost.xml
+C:\Users\Nonjabulo\Desktop\CRM Work\Eservice Base\Siyakhokha Dev\C8.eServices.Mvc\bin\System.Web.Mvc.xml
+C:\Users\Nonjabulo\Desktop\CRM Work\Eservice Base\Siyakhokha Dev\C8.eServices.Mvc\bin\System.Web.Optimization.xml
+C:\Users\Nonjabulo\Desktop\CRM Work\Eservice Base\Siyakhokha Dev\C8.eServices.Mvc\bin\System.Web.Razor.xml
+C:\Users\Nonjabulo\Desktop\CRM Work\Eservice Base\Siyakhokha Dev\C8.eServices.Mvc\bin\System.Web.WebPages.xml
+C:\Users\Nonjabulo\Desktop\CRM Work\Eservice Base\Siyakhokha Dev\C8.eServices.Mvc\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Nonjabulo\Desktop\CRM Work\Eservice Base\Siyakhokha Dev\C8.eServices.Mvc\bin\System.Web.WebPages.Razor.xml
+C:\Users\Nonjabulo\Desktop\CRM Work\Eservice Base\Siyakhokha Dev\C8.eServices.Mvc\obj\Debug\C8.eServices.Mvc.csproj.CoreCompileInputs.cache
+C:\Users\Nonjabulo\Desktop\CRM Work\Eservice Base\Siyakhokha Dev\C8.eServices.Mvc\obj\Debug\C8.eServices.Mvc.csproj.CopyComplete
+C:\Users\Nonjabulo\Desktop\CRM Work\Eservice Base\Siyakhokha Dev\C8.eServices.Mvc\obj\Debug\C8.eServices.Mvc.dll
+C:\Users\Nonjabulo\Desktop\CRM Work\Eservice Base\Siyakhokha Dev\C8.eServices.Mvc\obj\Debug\C8.eServices.Mvc.pdb
+C:\Users\Nonjabulo\Desktop\CRM Work\CRM SVN Repo\Base App\C8.eServices.Mvc\bin\C8.eServices.Mvc.dll.config
+C:\Users\Nonjabulo\Desktop\CRM Work\CRM SVN Repo\Base App\C8.eServices.Mvc\bin\C8.eServices.Mvc.dll
+C:\Users\Nonjabulo\Desktop\CRM Work\CRM SVN Repo\Base App\C8.eServices.Mvc\bin\C8.eServices.Mvc.pdb
+C:\Users\Nonjabulo\Desktop\CRM Work\CRM SVN Repo\Base App\C8.eServices.Mvc\bin\Antlr3.Runtime.dll
+C:\Users\Nonjabulo\Desktop\CRM Work\CRM SVN Repo\Base App\C8.eServices.Mvc\bin\BouncyCastle.Crypto.dll
+C:\Users\Nonjabulo\Desktop\CRM Work\CRM SVN Repo\Base App\C8.eServices.Mvc\bin\Common.Logging.Core.dll
+C:\Users\Nonjabulo\Desktop\CRM Work\CRM SVN Repo\Base App\C8.eServices.Mvc\bin\Common.Logging.dll
+C:\Users\Nonjabulo\Desktop\CRM Work\CRM SVN Repo\Base App\C8.eServices.Mvc\bin\DotNetZip.dll
+C:\Users\Nonjabulo\Desktop\CRM Work\CRM SVN Repo\Base App\C8.eServices.Mvc\bin\Elmah.Contrib.EntityFramework.dll
+C:\Users\Nonjabulo\Desktop\CRM Work\CRM SVN Repo\Base App\C8.eServices.Mvc\bin\Elmah.dll
+C:\Users\Nonjabulo\Desktop\CRM Work\CRM SVN Repo\Base App\C8.eServices.Mvc\bin\Elmah.Mvc.dll
+C:\Users\Nonjabulo\Desktop\CRM Work\CRM SVN Repo\Base App\C8.eServices.Mvc\bin\EntityFramework.dll
+C:\Users\Nonjabulo\Desktop\CRM Work\CRM SVN Repo\Base App\C8.eServices.Mvc\bin\EntityFramework.SqlServer.dll
+C:\Users\Nonjabulo\Desktop\CRM Work\CRM SVN Repo\Base App\C8.eServices.Mvc\bin\EPPlus.dll
+C:\Users\Nonjabulo\Desktop\CRM Work\CRM SVN Repo\Base App\C8.eServices.Mvc\bin\itextsharp.dll
+C:\Users\Nonjabulo\Desktop\CRM Work\CRM SVN Repo\Base App\C8.eServices.Mvc\bin\itextsharp.xmlworker.dll
+C:\Users\Nonjabulo\Desktop\CRM Work\CRM SVN Repo\Base App\C8.eServices.Mvc\bin\JamaaTech.Smpp.Net.Client.dll
+C:\Users\Nonjabulo\Desktop\CRM Work\CRM SVN Repo\Base App\C8.eServices.Mvc\bin\JamaaTech.Smpp.Net.Lib.dll
+C:\Users\Nonjabulo\Desktop\CRM Work\CRM SVN Repo\Base App\C8.eServices.Mvc\bin\MailKit.dll
+C:\Users\Nonjabulo\Desktop\CRM Work\CRM SVN Repo\Base App\C8.eServices.Mvc\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Nonjabulo\Desktop\CRM Work\CRM SVN Repo\Base App\C8.eServices.Mvc\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Nonjabulo\Desktop\CRM Work\CRM SVN Repo\Base App\C8.eServices.Mvc\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Nonjabulo\Desktop\CRM Work\CRM SVN Repo\Base App\C8.eServices.Mvc\bin\Microsoft.Owin.dll
+C:\Users\Nonjabulo\Desktop\CRM Work\CRM SVN Repo\Base App\C8.eServices.Mvc\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Nonjabulo\Desktop\CRM Work\CRM SVN Repo\Base App\C8.eServices.Mvc\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Nonjabulo\Desktop\CRM Work\CRM SVN Repo\Base App\C8.eServices.Mvc\bin\Microsoft.Owin.Security.dll
+C:\Users\Nonjabulo\Desktop\CRM Work\CRM SVN Repo\Base App\C8.eServices.Mvc\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Nonjabulo\Desktop\CRM Work\CRM SVN Repo\Base App\C8.eServices.Mvc\bin\Microsoft.ReportViewer.Common.dll
+C:\Users\Nonjabulo\Desktop\CRM Work\CRM SVN Repo\Base App\C8.eServices.Mvc\bin\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\Nonjabulo\Desktop\CRM Work\CRM SVN Repo\Base App\C8.eServices.Mvc\bin\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\Nonjabulo\Desktop\CRM Work\CRM SVN Repo\Base App\C8.eServices.Mvc\bin\Microsoft.ReportViewer.WebForms.dll
+C:\Users\Nonjabulo\Desktop\CRM Work\CRM SVN Repo\Base App\C8.eServices.Mvc\bin\Microsoft.SharePoint.Client.dll
+C:\Users\Nonjabulo\Desktop\CRM Work\CRM SVN Repo\Base App\C8.eServices.Mvc\bin\Microsoft.SharePoint.Client.Runtime.dll
+C:\Users\Nonjabulo\Desktop\CRM Work\CRM SVN Repo\Base App\C8.eServices.Mvc\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Nonjabulo\Desktop\CRM Work\CRM SVN Repo\Base App\C8.eServices.Mvc\bin\MimeKit.dll
+C:\Users\Nonjabulo\Desktop\CRM Work\CRM SVN Repo\Base App\C8.eServices.Mvc\bin\MoreLinq.dll
+C:\Users\Nonjabulo\Desktop\CRM Work\CRM SVN Repo\Base App\C8.eServices.Mvc\bin\Newtonsoft.Json.dll
+C:\Users\Nonjabulo\Desktop\CRM Work\CRM SVN Repo\Base App\C8.eServices.Mvc\bin\Owin.dll
+C:\Users\Nonjabulo\Desktop\CRM Work\CRM SVN Repo\Base App\C8.eServices.Mvc\bin\PdfSharp.dll
+C:\Users\Nonjabulo\Desktop\CRM Work\CRM SVN Repo\Base App\C8.eServices.Mvc\bin\RestSharp.dll
+C:\Users\Nonjabulo\Desktop\CRM Work\CRM SVN Repo\Base App\C8.eServices.Mvc\bin\Rotativa.Core.dll
+C:\Users\Nonjabulo\Desktop\CRM Work\CRM SVN Repo\Base App\C8.eServices.Mvc\bin\Rotativa.dll
+C:\Users\Nonjabulo\Desktop\CRM Work\CRM SVN Repo\Base App\C8.eServices.Mvc\bin\System.Linq.Dynamic.dll
+C:\Users\Nonjabulo\Desktop\CRM Work\CRM SVN Repo\Base App\C8.eServices.Mvc\bin\System.Net.Http.Formatting.dll
+C:\Users\Nonjabulo\Desktop\CRM Work\CRM SVN Repo\Base App\C8.eServices.Mvc\bin\System.ValueTuple.dll
+C:\Users\Nonjabulo\Desktop\CRM Work\CRM SVN Repo\Base App\C8.eServices.Mvc\bin\System.Web.Cors.dll
+C:\Users\Nonjabulo\Desktop\CRM Work\CRM SVN Repo\Base App\C8.eServices.Mvc\bin\System.Web.Helpers.dll
+C:\Users\Nonjabulo\Desktop\CRM Work\CRM SVN Repo\Base App\C8.eServices.Mvc\bin\System.Web.Http.Cors.dll
+C:\Users\Nonjabulo\Desktop\CRM Work\CRM SVN Repo\Base App\C8.eServices.Mvc\bin\System.Web.Http.dll
+C:\Users\Nonjabulo\Desktop\CRM Work\CRM SVN Repo\Base App\C8.eServices.Mvc\bin\System.Web.Http.WebHost.dll
+C:\Users\Nonjabulo\Desktop\CRM Work\CRM SVN Repo\Base App\C8.eServices.Mvc\bin\System.Web.Mvc.dll
+C:\Users\Nonjabulo\Desktop\CRM Work\CRM SVN Repo\Base App\C8.eServices.Mvc\bin\System.Web.Optimization.dll
+C:\Users\Nonjabulo\Desktop\CRM Work\CRM SVN Repo\Base App\C8.eServices.Mvc\bin\System.Web.Razor.dll
+C:\Users\Nonjabulo\Desktop\CRM Work\CRM SVN Repo\Base App\C8.eServices.Mvc\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Nonjabulo\Desktop\CRM Work\CRM SVN Repo\Base App\C8.eServices.Mvc\bin\System.Web.WebPages.dll
+C:\Users\Nonjabulo\Desktop\CRM Work\CRM SVN Repo\Base App\C8.eServices.Mvc\bin\System.Web.WebPages.Razor.dll
+C:\Users\Nonjabulo\Desktop\CRM Work\CRM SVN Repo\Base App\C8.eServices.Mvc\bin\WebGrease.dll
+C:\Users\Nonjabulo\Desktop\CRM Work\CRM SVN Repo\Base App\C8.eServices.Mvc\bin\Antlr3.Runtime.pdb
+C:\Users\Nonjabulo\Desktop\CRM Work\CRM SVN Repo\Base App\C8.eServices.Mvc\bin\Common.Logging.pdb
+C:\Users\Nonjabulo\Desktop\CRM Work\CRM SVN Repo\Base App\C8.eServices.Mvc\bin\Common.Logging.xml
+C:\Users\Nonjabulo\Desktop\CRM Work\CRM SVN Repo\Base App\C8.eServices.Mvc\bin\Common.Logging.Core.pdb
+C:\Users\Nonjabulo\Desktop\CRM Work\CRM SVN Repo\Base App\C8.eServices.Mvc\bin\Common.Logging.Core.xml
+C:\Users\Nonjabulo\Desktop\CRM Work\CRM SVN Repo\Base App\C8.eServices.Mvc\bin\DotNetZip.xml
+C:\Users\Nonjabulo\Desktop\CRM Work\CRM SVN Repo\Base App\C8.eServices.Mvc\bin\Elmah.Contrib.EntityFramework.pdb
+C:\Users\Nonjabulo\Desktop\CRM Work\CRM SVN Repo\Base App\C8.eServices.Mvc\bin\EntityFramework.xml
+C:\Users\Nonjabulo\Desktop\CRM Work\CRM SVN Repo\Base App\C8.eServices.Mvc\bin\EntityFramework.SqlServer.xml
+C:\Users\Nonjabulo\Desktop\CRM Work\CRM SVN Repo\Base App\C8.eServices.Mvc\bin\EPPlus.xml
+C:\Users\Nonjabulo\Desktop\CRM Work\CRM SVN Repo\Base App\C8.eServices.Mvc\bin\itextsharp.xml
+C:\Users\Nonjabulo\Desktop\CRM Work\CRM SVN Repo\Base App\C8.eServices.Mvc\bin\JamaaTech.Smpp.Net.Client.pdb
+C:\Users\Nonjabulo\Desktop\CRM Work\CRM SVN Repo\Base App\C8.eServices.Mvc\bin\JamaaTech.Smpp.Net.Lib.pdb
+C:\Users\Nonjabulo\Desktop\CRM Work\CRM SVN Repo\Base App\C8.eServices.Mvc\bin\MailKit.xml
+C:\Users\Nonjabulo\Desktop\CRM Work\CRM SVN Repo\Base App\C8.eServices.Mvc\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Nonjabulo\Desktop\CRM Work\CRM SVN Repo\Base App\C8.eServices.Mvc\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Nonjabulo\Desktop\CRM Work\CRM SVN Repo\Base App\C8.eServices.Mvc\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Nonjabulo\Desktop\CRM Work\CRM SVN Repo\Base App\C8.eServices.Mvc\bin\Microsoft.Owin.xml
+C:\Users\Nonjabulo\Desktop\CRM Work\CRM SVN Repo\Base App\C8.eServices.Mvc\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Nonjabulo\Desktop\CRM Work\CRM SVN Repo\Base App\C8.eServices.Mvc\bin\Microsoft.Owin.Security.xml
+C:\Users\Nonjabulo\Desktop\CRM Work\CRM SVN Repo\Base App\C8.eServices.Mvc\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Nonjabulo\Desktop\CRM Work\CRM SVN Repo\Base App\C8.eServices.Mvc\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Nonjabulo\Desktop\CRM Work\CRM SVN Repo\Base App\C8.eServices.Mvc\bin\MimeKit.xml
+C:\Users\Nonjabulo\Desktop\CRM Work\CRM SVN Repo\Base App\C8.eServices.Mvc\bin\MoreLinq.xml
+C:\Users\Nonjabulo\Desktop\CRM Work\CRM SVN Repo\Base App\C8.eServices.Mvc\bin\Newtonsoft.Json.xml
+C:\Users\Nonjabulo\Desktop\CRM Work\CRM SVN Repo\Base App\C8.eServices.Mvc\bin\RestSharp.xml
+C:\Users\Nonjabulo\Desktop\CRM Work\CRM SVN Repo\Base App\C8.eServices.Mvc\bin\System.Net.Http.Formatting.xml
+C:\Users\Nonjabulo\Desktop\CRM Work\CRM SVN Repo\Base App\C8.eServices.Mvc\bin\System.ValueTuple.xml
+C:\Users\Nonjabulo\Desktop\CRM Work\CRM SVN Repo\Base App\C8.eServices.Mvc\bin\System.Web.Helpers.xml
+C:\Users\Nonjabulo\Desktop\CRM Work\CRM SVN Repo\Base App\C8.eServices.Mvc\bin\System.Web.Http.xml
+C:\Users\Nonjabulo\Desktop\CRM Work\CRM SVN Repo\Base App\C8.eServices.Mvc\bin\System.Web.Http.Cors.xml
+C:\Users\Nonjabulo\Desktop\CRM Work\CRM SVN Repo\Base App\C8.eServices.Mvc\bin\System.Web.Http.WebHost.xml
+C:\Users\Nonjabulo\Desktop\CRM Work\CRM SVN Repo\Base App\C8.eServices.Mvc\bin\System.Web.Mvc.xml
+C:\Users\Nonjabulo\Desktop\CRM Work\CRM SVN Repo\Base App\C8.eServices.Mvc\bin\System.Web.Optimization.xml
+C:\Users\Nonjabulo\Desktop\CRM Work\CRM SVN Repo\Base App\C8.eServices.Mvc\bin\System.Web.Razor.xml
+C:\Users\Nonjabulo\Desktop\CRM Work\CRM SVN Repo\Base App\C8.eServices.Mvc\bin\System.Web.WebPages.xml
+C:\Users\Nonjabulo\Desktop\CRM Work\CRM SVN Repo\Base App\C8.eServices.Mvc\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Nonjabulo\Desktop\CRM Work\CRM SVN Repo\Base App\C8.eServices.Mvc\bin\System.Web.WebPages.Razor.xml
+C:\Users\Nonjabulo\Desktop\CRM Work\CRM SVN Repo\Base App\C8.eServices.Mvc\obj\Debug\C8.eServices.Mvc.csprojAssemblyReference.cache
+C:\Users\Nonjabulo\Desktop\CRM Work\CRM SVN Repo\Base App\C8.eServices.Mvc\obj\Debug\C8.eServices.Mvc.Migrations.InitialMigration.resources
+C:\Users\Nonjabulo\Desktop\CRM Work\CRM SVN Repo\Base App\C8.eServices.Mvc\obj\Debug\C8.eServices.Mvc.csproj.GenerateResource.cache
+C:\Users\Nonjabulo\Desktop\CRM Work\CRM SVN Repo\Base App\C8.eServices.Mvc\obj\Debug\C8.eServices.Mvc.csproj.CoreCompileInputs.cache
+C:\Users\Nonjabulo\Desktop\CRM Work\CRM SVN Repo\Base App\C8.eServices.Mvc\obj\Debug\C8.eServices.Mvc.csproj.CopyComplete
+C:\Users\Nonjabulo\Desktop\CRM Work\CRM SVN Repo\Base App\C8.eServices.Mvc\obj\Debug\C8.eServices.Mvc.dll
+C:\Users\Nonjabulo\Desktop\CRM Work\CRM SVN Repo\Base App\C8.eServices.Mvc\obj\Debug\C8.eServices.Mvc.pdb
+C:\Websites\DOI\C8.eServices.Mvc\obj\Debug\C8.eServices.Mvc.csprojAssemblyReference.cache
+C:\Websites\DOI\C8.eServices.Mvc\obj\Debug\C8.eServices.Mvc.dll
+C:\Websites\DOI\C8.eServices.Mvc\obj\Debug\C8.eServices.Mvc.pdb
+C:\Workspace\BaseApp\C8.eServices.Mvc\obj\Debug\C8.eServices.Mvc.csproj.AssemblyReference.cache
+C:\Workspace\BaseApp\C8.eServices.Mvc\obj\Debug\C8.eServices.Mvc.dll
+C:\Workspace\BaseApp\C8.eServices.Mvc\obj\Debug\C8.eServices.Mvc.pdb
+C:\Workspace\BaseApp\C8.eServices.Mvc\bin\C8.eServices.Mvc.dll.config
+C:\Workspace\BaseApp\C8.eServices.Mvc\bin\C8.eServices.Mvc.dll
+C:\Workspace\BaseApp\C8.eServices.Mvc\bin\C8.eServices.Mvc.pdb
+C:\Workspace\BaseApp\C8.eServices.Mvc\bin\Antlr3.Runtime.dll
+C:\Workspace\BaseApp\C8.eServices.Mvc\bin\BouncyCastle.Crypto.dll
+C:\Workspace\BaseApp\C8.eServices.Mvc\bin\Common.Logging.Core.dll
+C:\Workspace\BaseApp\C8.eServices.Mvc\bin\Common.Logging.dll
+C:\Workspace\BaseApp\C8.eServices.Mvc\bin\DotNetZip.dll
+C:\Workspace\BaseApp\C8.eServices.Mvc\bin\Elmah.Contrib.EntityFramework.dll
+C:\Workspace\BaseApp\C8.eServices.Mvc\bin\Elmah.dll
+C:\Workspace\BaseApp\C8.eServices.Mvc\bin\Elmah.Mvc.dll
+C:\Workspace\BaseApp\C8.eServices.Mvc\bin\EntityFramework.dll
+C:\Workspace\BaseApp\C8.eServices.Mvc\bin\EntityFramework.SqlServer.dll
+C:\Workspace\BaseApp\C8.eServices.Mvc\bin\EPPlus.dll
+C:\Workspace\BaseApp\C8.eServices.Mvc\bin\itextsharp.dll
+C:\Workspace\BaseApp\C8.eServices.Mvc\bin\itextsharp.xmlworker.dll
+C:\Workspace\BaseApp\C8.eServices.Mvc\bin\JamaaTech.Smpp.Net.Client.dll
+C:\Workspace\BaseApp\C8.eServices.Mvc\bin\JamaaTech.Smpp.Net.Lib.dll
+C:\Workspace\BaseApp\C8.eServices.Mvc\bin\MailKit.dll
+C:\Workspace\BaseApp\C8.eServices.Mvc\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Workspace\BaseApp\C8.eServices.Mvc\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Workspace\BaseApp\C8.eServices.Mvc\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Workspace\BaseApp\C8.eServices.Mvc\bin\Microsoft.Owin.dll
+C:\Workspace\BaseApp\C8.eServices.Mvc\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Workspace\BaseApp\C8.eServices.Mvc\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Workspace\BaseApp\C8.eServices.Mvc\bin\Microsoft.Owin.Security.dll
+C:\Workspace\BaseApp\C8.eServices.Mvc\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Workspace\BaseApp\C8.eServices.Mvc\bin\Microsoft.ReportViewer.Common.dll
+C:\Workspace\BaseApp\C8.eServices.Mvc\bin\Microsoft.ReportViewer.DataVisualization.dll
+C:\Workspace\BaseApp\C8.eServices.Mvc\bin\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Workspace\BaseApp\C8.eServices.Mvc\bin\Microsoft.ReportViewer.WebForms.dll
+C:\Workspace\BaseApp\C8.eServices.Mvc\bin\Microsoft.SharePoint.Client.dll
+C:\Workspace\BaseApp\C8.eServices.Mvc\bin\Microsoft.SharePoint.Client.Runtime.dll
+C:\Workspace\BaseApp\C8.eServices.Mvc\bin\Microsoft.Web.Infrastructure.dll
+C:\Workspace\BaseApp\C8.eServices.Mvc\bin\MimeKit.dll
+C:\Workspace\BaseApp\C8.eServices.Mvc\bin\MoreLinq.dll
+C:\Workspace\BaseApp\C8.eServices.Mvc\bin\Newtonsoft.Json.dll
+C:\Workspace\BaseApp\C8.eServices.Mvc\bin\Owin.dll
+C:\Workspace\BaseApp\C8.eServices.Mvc\bin\PdfSharp.dll
+C:\Workspace\BaseApp\C8.eServices.Mvc\bin\RestSharp.dll
+C:\Workspace\BaseApp\C8.eServices.Mvc\bin\Rotativa.Core.dll
+C:\Workspace\BaseApp\C8.eServices.Mvc\bin\Rotativa.dll
+C:\Workspace\BaseApp\C8.eServices.Mvc\bin\System.Linq.Dynamic.dll
+C:\Workspace\BaseApp\C8.eServices.Mvc\bin\System.Net.Http.Formatting.dll
+C:\Workspace\BaseApp\C8.eServices.Mvc\bin\System.ValueTuple.dll
+C:\Workspace\BaseApp\C8.eServices.Mvc\bin\System.Web.Cors.dll
+C:\Workspace\BaseApp\C8.eServices.Mvc\bin\System.Web.Helpers.dll
+C:\Workspace\BaseApp\C8.eServices.Mvc\bin\System.Web.Http.Cors.dll
+C:\Workspace\BaseApp\C8.eServices.Mvc\bin\System.Web.Http.dll
+C:\Workspace\BaseApp\C8.eServices.Mvc\bin\System.Web.Http.WebHost.dll
+C:\Workspace\BaseApp\C8.eServices.Mvc\bin\System.Web.Mvc.dll
+C:\Workspace\BaseApp\C8.eServices.Mvc\bin\System.Web.Optimization.dll
+C:\Workspace\BaseApp\C8.eServices.Mvc\bin\System.Web.Razor.dll
+C:\Workspace\BaseApp\C8.eServices.Mvc\bin\System.Web.WebPages.Deployment.dll
+C:\Workspace\BaseApp\C8.eServices.Mvc\bin\System.Web.WebPages.dll
+C:\Workspace\BaseApp\C8.eServices.Mvc\bin\System.Web.WebPages.Razor.dll
+C:\Workspace\BaseApp\C8.eServices.Mvc\bin\WebGrease.dll
+C:\Workspace\BaseApp\C8.eServices.Mvc\bin\Antlr3.Runtime.pdb
+C:\Workspace\BaseApp\C8.eServices.Mvc\bin\Common.Logging.pdb
+C:\Workspace\BaseApp\C8.eServices.Mvc\bin\Common.Logging.xml
+C:\Workspace\BaseApp\C8.eServices.Mvc\bin\Common.Logging.Core.pdb
+C:\Workspace\BaseApp\C8.eServices.Mvc\bin\Common.Logging.Core.xml
+C:\Workspace\BaseApp\C8.eServices.Mvc\bin\DotNetZip.xml
+C:\Workspace\BaseApp\C8.eServices.Mvc\bin\Elmah.Contrib.EntityFramework.pdb
+C:\Workspace\BaseApp\C8.eServices.Mvc\bin\EntityFramework.xml
+C:\Workspace\BaseApp\C8.eServices.Mvc\bin\EntityFramework.SqlServer.xml
+C:\Workspace\BaseApp\C8.eServices.Mvc\bin\EPPlus.xml
+C:\Workspace\BaseApp\C8.eServices.Mvc\bin\itextsharp.xml
+C:\Workspace\BaseApp\C8.eServices.Mvc\bin\JamaaTech.Smpp.Net.Client.pdb
+C:\Workspace\BaseApp\C8.eServices.Mvc\bin\JamaaTech.Smpp.Net.Lib.pdb
+C:\Workspace\BaseApp\C8.eServices.Mvc\bin\MailKit.xml
+C:\Workspace\BaseApp\C8.eServices.Mvc\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Workspace\BaseApp\C8.eServices.Mvc\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Workspace\BaseApp\C8.eServices.Mvc\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Workspace\BaseApp\C8.eServices.Mvc\bin\Microsoft.Owin.xml
+C:\Workspace\BaseApp\C8.eServices.Mvc\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Workspace\BaseApp\C8.eServices.Mvc\bin\Microsoft.Owin.Security.xml
+C:\Workspace\BaseApp\C8.eServices.Mvc\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Workspace\BaseApp\C8.eServices.Mvc\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Workspace\BaseApp\C8.eServices.Mvc\bin\MimeKit.xml
+C:\Workspace\BaseApp\C8.eServices.Mvc\bin\MoreLinq.xml
+C:\Workspace\BaseApp\C8.eServices.Mvc\bin\Newtonsoft.Json.xml
+C:\Workspace\BaseApp\C8.eServices.Mvc\bin\RestSharp.xml
+C:\Workspace\BaseApp\C8.eServices.Mvc\bin\System.Net.Http.Formatting.xml
+C:\Workspace\BaseApp\C8.eServices.Mvc\bin\System.ValueTuple.xml
+C:\Workspace\BaseApp\C8.eServices.Mvc\bin\System.Web.Helpers.xml
+C:\Workspace\BaseApp\C8.eServices.Mvc\bin\System.Web.Http.xml
+C:\Workspace\BaseApp\C8.eServices.Mvc\bin\System.Web.Http.Cors.xml
+C:\Workspace\BaseApp\C8.eServices.Mvc\bin\System.Web.Http.WebHost.xml
+C:\Workspace\BaseApp\C8.eServices.Mvc\bin\System.Web.Mvc.xml
+C:\Workspace\BaseApp\C8.eServices.Mvc\bin\System.Web.Optimization.xml
+C:\Workspace\BaseApp\C8.eServices.Mvc\bin\System.Web.Razor.xml
+C:\Workspace\BaseApp\C8.eServices.Mvc\bin\System.Web.WebPages.xml
+C:\Workspace\BaseApp\C8.eServices.Mvc\bin\System.Web.WebPages.Deployment.xml
+C:\Workspace\BaseApp\C8.eServices.Mvc\bin\System.Web.WebPages.Razor.xml
+C:\Workspace\BaseApp\C8.eServices.Mvc\obj\Debug\C8.eServices.Mvc.csproj.CoreCompileInputs.cache
+C:\Workspace\BaseApp\C8.eServices.Mvc\obj\Debug\C8.eServices.Mvc.csproj.CopyComplete
+C:\Workspace\BaseApp\C8.eServices.Mvc\obj\Debug\C8.eServices.Mvc.Migrations.account_update.resources
+C:\Workspace\BaseApp\C8.eServices.Mvc\obj\Debug\C8.eServices.Mvc.csproj.GenerateResource.cache
+C:\Workspace\BaseApp\C8.eServices.Mvc\obj\Debug\C8.eServices.Mvc.Migrations.MyNewMigration.resources
+C:\Workspace\xet-help-desk\C8.eServices.Mvc\bin\C8.eServices.Mvc.dll.config
+C:\Workspace\xet-help-desk\C8.eServices.Mvc\bin\C8.eServices.Mvc.dll
+C:\Workspace\xet-help-desk\C8.eServices.Mvc\bin\C8.eServices.Mvc.pdb
+C:\Workspace\xet-help-desk\C8.eServices.Mvc\bin\Antlr3.Runtime.dll
+C:\Workspace\xet-help-desk\C8.eServices.Mvc\bin\BouncyCastle.Crypto.dll
+C:\Workspace\xet-help-desk\C8.eServices.Mvc\bin\Common.Logging.Core.dll
+C:\Workspace\xet-help-desk\C8.eServices.Mvc\bin\Common.Logging.dll
+C:\Workspace\xet-help-desk\C8.eServices.Mvc\bin\DotNetZip.dll
+C:\Workspace\xet-help-desk\C8.eServices.Mvc\bin\Elmah.Contrib.EntityFramework.dll
+C:\Workspace\xet-help-desk\C8.eServices.Mvc\bin\Elmah.dll
+C:\Workspace\xet-help-desk\C8.eServices.Mvc\bin\Elmah.Mvc.dll
+C:\Workspace\xet-help-desk\C8.eServices.Mvc\bin\EntityFramework.dll
+C:\Workspace\xet-help-desk\C8.eServices.Mvc\bin\EntityFramework.SqlServer.dll
+C:\Workspace\xet-help-desk\C8.eServices.Mvc\bin\EPPlus.dll
+C:\Workspace\xet-help-desk\C8.eServices.Mvc\bin\itextsharp.dll
+C:\Workspace\xet-help-desk\C8.eServices.Mvc\bin\itextsharp.xmlworker.dll
+C:\Workspace\xet-help-desk\C8.eServices.Mvc\bin\JamaaTech.Smpp.Net.Client.dll
+C:\Workspace\xet-help-desk\C8.eServices.Mvc\bin\JamaaTech.Smpp.Net.Lib.dll
+C:\Workspace\xet-help-desk\C8.eServices.Mvc\bin\MailKit.dll
+C:\Workspace\xet-help-desk\C8.eServices.Mvc\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Workspace\xet-help-desk\C8.eServices.Mvc\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Workspace\xet-help-desk\C8.eServices.Mvc\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Workspace\xet-help-desk\C8.eServices.Mvc\bin\Microsoft.Owin.dll
+C:\Workspace\xet-help-desk\C8.eServices.Mvc\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Workspace\xet-help-desk\C8.eServices.Mvc\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Workspace\xet-help-desk\C8.eServices.Mvc\bin\Microsoft.Owin.Security.dll
+C:\Workspace\xet-help-desk\C8.eServices.Mvc\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Workspace\xet-help-desk\C8.eServices.Mvc\bin\Microsoft.ReportViewer.Common.dll
+C:\Workspace\xet-help-desk\C8.eServices.Mvc\bin\Microsoft.ReportViewer.DataVisualization.dll
+C:\Workspace\xet-help-desk\C8.eServices.Mvc\bin\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Workspace\xet-help-desk\C8.eServices.Mvc\bin\Microsoft.ReportViewer.WebForms.dll
+C:\Workspace\xet-help-desk\C8.eServices.Mvc\bin\Microsoft.SharePoint.Client.dll
+C:\Workspace\xet-help-desk\C8.eServices.Mvc\bin\Microsoft.SharePoint.Client.Runtime.dll
+C:\Workspace\xet-help-desk\C8.eServices.Mvc\bin\Microsoft.Web.Infrastructure.dll
+C:\Workspace\xet-help-desk\C8.eServices.Mvc\bin\MimeKit.dll
+C:\Workspace\xet-help-desk\C8.eServices.Mvc\bin\MoreLinq.dll
+C:\Workspace\xet-help-desk\C8.eServices.Mvc\bin\Newtonsoft.Json.dll
+C:\Workspace\xet-help-desk\C8.eServices.Mvc\bin\Owin.dll
+C:\Workspace\xet-help-desk\C8.eServices.Mvc\bin\PdfSharp.dll
+C:\Workspace\xet-help-desk\C8.eServices.Mvc\bin\RestSharp.dll
+C:\Workspace\xet-help-desk\C8.eServices.Mvc\bin\Rotativa.Core.dll
+C:\Workspace\xet-help-desk\C8.eServices.Mvc\bin\Rotativa.dll
+C:\Workspace\xet-help-desk\C8.eServices.Mvc\bin\System.Linq.Dynamic.dll
+C:\Workspace\xet-help-desk\C8.eServices.Mvc\bin\System.Net.Http.Formatting.dll
+C:\Workspace\xet-help-desk\C8.eServices.Mvc\bin\System.ValueTuple.dll
+C:\Workspace\xet-help-desk\C8.eServices.Mvc\bin\System.Web.Cors.dll
+C:\Workspace\xet-help-desk\C8.eServices.Mvc\bin\System.Web.Helpers.dll
+C:\Workspace\xet-help-desk\C8.eServices.Mvc\bin\System.Web.Http.Cors.dll
+C:\Workspace\xet-help-desk\C8.eServices.Mvc\bin\System.Web.Http.dll
+C:\Workspace\xet-help-desk\C8.eServices.Mvc\bin\System.Web.Http.WebHost.dll
+C:\Workspace\xet-help-desk\C8.eServices.Mvc\bin\System.Web.Mvc.dll
+C:\Workspace\xet-help-desk\C8.eServices.Mvc\bin\System.Web.Optimization.dll
+C:\Workspace\xet-help-desk\C8.eServices.Mvc\bin\System.Web.Razor.dll
+C:\Workspace\xet-help-desk\C8.eServices.Mvc\bin\System.Web.WebPages.Deployment.dll
+C:\Workspace\xet-help-desk\C8.eServices.Mvc\bin\System.Web.WebPages.dll
+C:\Workspace\xet-help-desk\C8.eServices.Mvc\bin\System.Web.WebPages.Razor.dll
+C:\Workspace\xet-help-desk\C8.eServices.Mvc\bin\WebGrease.dll
+C:\Workspace\xet-help-desk\C8.eServices.Mvc\bin\Antlr3.Runtime.pdb
+C:\Workspace\xet-help-desk\C8.eServices.Mvc\bin\Common.Logging.pdb
+C:\Workspace\xet-help-desk\C8.eServices.Mvc\bin\Common.Logging.xml
+C:\Workspace\xet-help-desk\C8.eServices.Mvc\bin\Common.Logging.Core.pdb
+C:\Workspace\xet-help-desk\C8.eServices.Mvc\bin\Common.Logging.Core.xml
+C:\Workspace\xet-help-desk\C8.eServices.Mvc\bin\DotNetZip.xml
+C:\Workspace\xet-help-desk\C8.eServices.Mvc\bin\Elmah.Contrib.EntityFramework.pdb
+C:\Workspace\xet-help-desk\C8.eServices.Mvc\bin\EntityFramework.xml
+C:\Workspace\xet-help-desk\C8.eServices.Mvc\bin\EntityFramework.SqlServer.xml
+C:\Workspace\xet-help-desk\C8.eServices.Mvc\bin\EPPlus.xml
+C:\Workspace\xet-help-desk\C8.eServices.Mvc\bin\itextsharp.xml
+C:\Workspace\xet-help-desk\C8.eServices.Mvc\bin\JamaaTech.Smpp.Net.Client.pdb
+C:\Workspace\xet-help-desk\C8.eServices.Mvc\bin\JamaaTech.Smpp.Net.Lib.pdb
+C:\Workspace\xet-help-desk\C8.eServices.Mvc\bin\MailKit.xml
+C:\Workspace\xet-help-desk\C8.eServices.Mvc\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Workspace\xet-help-desk\C8.eServices.Mvc\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Workspace\xet-help-desk\C8.eServices.Mvc\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Workspace\xet-help-desk\C8.eServices.Mvc\bin\Microsoft.Owin.xml
+C:\Workspace\xet-help-desk\C8.eServices.Mvc\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Workspace\xet-help-desk\C8.eServices.Mvc\bin\Microsoft.Owin.Security.xml
+C:\Workspace\xet-help-desk\C8.eServices.Mvc\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Workspace\xet-help-desk\C8.eServices.Mvc\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Workspace\xet-help-desk\C8.eServices.Mvc\bin\MimeKit.xml
+C:\Workspace\xet-help-desk\C8.eServices.Mvc\bin\MoreLinq.xml
+C:\Workspace\xet-help-desk\C8.eServices.Mvc\bin\Newtonsoft.Json.xml
+C:\Workspace\xet-help-desk\C8.eServices.Mvc\bin\RestSharp.xml
+C:\Workspace\xet-help-desk\C8.eServices.Mvc\bin\System.Net.Http.Formatting.xml
+C:\Workspace\xet-help-desk\C8.eServices.Mvc\bin\System.ValueTuple.xml
+C:\Workspace\xet-help-desk\C8.eServices.Mvc\bin\System.Web.Helpers.xml
+C:\Workspace\xet-help-desk\C8.eServices.Mvc\bin\System.Web.Http.xml
+C:\Workspace\xet-help-desk\C8.eServices.Mvc\bin\System.Web.Http.Cors.xml
+C:\Workspace\xet-help-desk\C8.eServices.Mvc\bin\System.Web.Http.WebHost.xml
+C:\Workspace\xet-help-desk\C8.eServices.Mvc\bin\System.Web.Mvc.xml
+C:\Workspace\xet-help-desk\C8.eServices.Mvc\bin\System.Web.Optimization.xml
+C:\Workspace\xet-help-desk\C8.eServices.Mvc\bin\System.Web.Razor.xml
+C:\Workspace\xet-help-desk\C8.eServices.Mvc\bin\System.Web.WebPages.xml
+C:\Workspace\xet-help-desk\C8.eServices.Mvc\bin\System.Web.WebPages.Deployment.xml
+C:\Workspace\xet-help-desk\C8.eServices.Mvc\bin\System.Web.WebPages.Razor.xml
+C:\Workspace\xet-help-desk\C8.eServices.Mvc\obj\Debug\C8.eServices.Mvc.csproj.AssemblyReference.cache
+C:\Workspace\xet-help-desk\C8.eServices.Mvc\obj\Debug\C8.eServices.Mvc.Migrations.account_update.resources
+C:\Workspace\xet-help-desk\C8.eServices.Mvc\obj\Debug\C8.eServices.Mvc.Migrations.MyNewMigration.resources
+C:\Workspace\xet-help-desk\C8.eServices.Mvc\obj\Debug\C8.eServices.Mvc.csproj.GenerateResource.cache
+C:\Workspace\xet-help-desk\C8.eServices.Mvc\obj\Debug\C8.eServices.Mvc.csproj.CoreCompileInputs.cache
+C:\Workspace\xet-help-desk\C8.eServices.Mvc\obj\Debug\C8.eServices.Mvc.csproj.CopyComplete
+C:\Workspace\xet-help-desk\C8.eServices.Mvc\obj\Debug\C8.eServices.Mvc.dll
+C:\Workspace\xet-help-desk\C8.eServices.Mvc\obj\Debug\C8.eServices.Mvc.pdb
+C:\Workspace\Help-desk\C8.eServices.Mvc\bin\C8.eServices.Mvc.dll.config
+C:\Workspace\Help-desk\C8.eServices.Mvc\bin\C8.eServices.Mvc.dll
+C:\Workspace\Help-desk\C8.eServices.Mvc\bin\C8.eServices.Mvc.pdb
+C:\Workspace\Help-desk\C8.eServices.Mvc\bin\Antlr3.Runtime.dll
+C:\Workspace\Help-desk\C8.eServices.Mvc\bin\BouncyCastle.Crypto.dll
+C:\Workspace\Help-desk\C8.eServices.Mvc\bin\Common.Logging.Core.dll
+C:\Workspace\Help-desk\C8.eServices.Mvc\bin\Common.Logging.dll
+C:\Workspace\Help-desk\C8.eServices.Mvc\bin\DotNetZip.dll
+C:\Workspace\Help-desk\C8.eServices.Mvc\bin\Elmah.Contrib.EntityFramework.dll
+C:\Workspace\Help-desk\C8.eServices.Mvc\bin\Elmah.dll
+C:\Workspace\Help-desk\C8.eServices.Mvc\bin\Elmah.Mvc.dll
+C:\Workspace\Help-desk\C8.eServices.Mvc\bin\EntityFramework.dll
+C:\Workspace\Help-desk\C8.eServices.Mvc\bin\EntityFramework.SqlServer.dll
+C:\Workspace\Help-desk\C8.eServices.Mvc\bin\EPPlus.dll
+C:\Workspace\Help-desk\C8.eServices.Mvc\bin\itextsharp.dll
+C:\Workspace\Help-desk\C8.eServices.Mvc\bin\itextsharp.xmlworker.dll
+C:\Workspace\Help-desk\C8.eServices.Mvc\bin\JamaaTech.Smpp.Net.Client.dll
+C:\Workspace\Help-desk\C8.eServices.Mvc\bin\JamaaTech.Smpp.Net.Lib.dll
+C:\Workspace\Help-desk\C8.eServices.Mvc\bin\MailKit.dll
+C:\Workspace\Help-desk\C8.eServices.Mvc\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Workspace\Help-desk\C8.eServices.Mvc\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Workspace\Help-desk\C8.eServices.Mvc\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Workspace\Help-desk\C8.eServices.Mvc\bin\Microsoft.Owin.dll
+C:\Workspace\Help-desk\C8.eServices.Mvc\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Workspace\Help-desk\C8.eServices.Mvc\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Workspace\Help-desk\C8.eServices.Mvc\bin\Microsoft.Owin.Security.dll
+C:\Workspace\Help-desk\C8.eServices.Mvc\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Workspace\Help-desk\C8.eServices.Mvc\bin\Microsoft.ReportViewer.Common.dll
+C:\Workspace\Help-desk\C8.eServices.Mvc\bin\Microsoft.ReportViewer.DataVisualization.dll
+C:\Workspace\Help-desk\C8.eServices.Mvc\bin\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Workspace\Help-desk\C8.eServices.Mvc\bin\Microsoft.ReportViewer.WebForms.dll
+C:\Workspace\Help-desk\C8.eServices.Mvc\bin\Microsoft.SharePoint.Client.dll
+C:\Workspace\Help-desk\C8.eServices.Mvc\bin\Microsoft.SharePoint.Client.Runtime.dll
+C:\Workspace\Help-desk\C8.eServices.Mvc\bin\Microsoft.Web.Infrastructure.dll
+C:\Workspace\Help-desk\C8.eServices.Mvc\bin\MimeKit.dll
+C:\Workspace\Help-desk\C8.eServices.Mvc\bin\MoreLinq.dll
+C:\Workspace\Help-desk\C8.eServices.Mvc\bin\Newtonsoft.Json.dll
+C:\Workspace\Help-desk\C8.eServices.Mvc\bin\Owin.dll
+C:\Workspace\Help-desk\C8.eServices.Mvc\bin\PdfSharp.dll
+C:\Workspace\Help-desk\C8.eServices.Mvc\bin\RestSharp.dll
+C:\Workspace\Help-desk\C8.eServices.Mvc\bin\Rotativa.Core.dll
+C:\Workspace\Help-desk\C8.eServices.Mvc\bin\Rotativa.dll
+C:\Workspace\Help-desk\C8.eServices.Mvc\bin\System.Linq.Dynamic.dll
+C:\Workspace\Help-desk\C8.eServices.Mvc\bin\System.Net.Http.Formatting.dll
+C:\Workspace\Help-desk\C8.eServices.Mvc\bin\System.ValueTuple.dll
+C:\Workspace\Help-desk\C8.eServices.Mvc\bin\System.Web.Cors.dll
+C:\Workspace\Help-desk\C8.eServices.Mvc\bin\System.Web.Helpers.dll
+C:\Workspace\Help-desk\C8.eServices.Mvc\bin\System.Web.Http.Cors.dll
+C:\Workspace\Help-desk\C8.eServices.Mvc\bin\System.Web.Http.dll
+C:\Workspace\Help-desk\C8.eServices.Mvc\bin\System.Web.Http.WebHost.dll
+C:\Workspace\Help-desk\C8.eServices.Mvc\bin\System.Web.Mvc.dll
+C:\Workspace\Help-desk\C8.eServices.Mvc\bin\System.Web.Optimization.dll
+C:\Workspace\Help-desk\C8.eServices.Mvc\bin\System.Web.Razor.dll
+C:\Workspace\Help-desk\C8.eServices.Mvc\bin\System.Web.WebPages.Deployment.dll
+C:\Workspace\Help-desk\C8.eServices.Mvc\bin\System.Web.WebPages.dll
+C:\Workspace\Help-desk\C8.eServices.Mvc\bin\System.Web.WebPages.Razor.dll
+C:\Workspace\Help-desk\C8.eServices.Mvc\bin\WebGrease.dll
+C:\Workspace\Help-desk\C8.eServices.Mvc\bin\Antlr3.Runtime.pdb
+C:\Workspace\Help-desk\C8.eServices.Mvc\bin\Common.Logging.pdb
+C:\Workspace\Help-desk\C8.eServices.Mvc\bin\Common.Logging.xml
+C:\Workspace\Help-desk\C8.eServices.Mvc\bin\Common.Logging.Core.pdb
+C:\Workspace\Help-desk\C8.eServices.Mvc\bin\Common.Logging.Core.xml
+C:\Workspace\Help-desk\C8.eServices.Mvc\bin\DotNetZip.xml
+C:\Workspace\Help-desk\C8.eServices.Mvc\bin\Elmah.Contrib.EntityFramework.pdb
+C:\Workspace\Help-desk\C8.eServices.Mvc\bin\EntityFramework.xml
+C:\Workspace\Help-desk\C8.eServices.Mvc\bin\EntityFramework.SqlServer.xml
+C:\Workspace\Help-desk\C8.eServices.Mvc\bin\EPPlus.xml
+C:\Workspace\Help-desk\C8.eServices.Mvc\bin\itextsharp.xml
+C:\Workspace\Help-desk\C8.eServices.Mvc\bin\JamaaTech.Smpp.Net.Client.pdb
+C:\Workspace\Help-desk\C8.eServices.Mvc\bin\JamaaTech.Smpp.Net.Lib.pdb
+C:\Workspace\Help-desk\C8.eServices.Mvc\bin\MailKit.xml
+C:\Workspace\Help-desk\C8.eServices.Mvc\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Workspace\Help-desk\C8.eServices.Mvc\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Workspace\Help-desk\C8.eServices.Mvc\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Workspace\Help-desk\C8.eServices.Mvc\bin\Microsoft.Owin.xml
+C:\Workspace\Help-desk\C8.eServices.Mvc\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Workspace\Help-desk\C8.eServices.Mvc\bin\Microsoft.Owin.Security.xml
+C:\Workspace\Help-desk\C8.eServices.Mvc\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Workspace\Help-desk\C8.eServices.Mvc\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Workspace\Help-desk\C8.eServices.Mvc\bin\MimeKit.xml
+C:\Workspace\Help-desk\C8.eServices.Mvc\bin\MoreLinq.xml
+C:\Workspace\Help-desk\C8.eServices.Mvc\bin\Newtonsoft.Json.xml
+C:\Workspace\Help-desk\C8.eServices.Mvc\bin\RestSharp.xml
+C:\Workspace\Help-desk\C8.eServices.Mvc\bin\System.Net.Http.Formatting.xml
+C:\Workspace\Help-desk\C8.eServices.Mvc\bin\System.ValueTuple.xml
+C:\Workspace\Help-desk\C8.eServices.Mvc\bin\System.Web.Helpers.xml
+C:\Workspace\Help-desk\C8.eServices.Mvc\bin\System.Web.Http.xml
+C:\Workspace\Help-desk\C8.eServices.Mvc\bin\System.Web.Http.Cors.xml
+C:\Workspace\Help-desk\C8.eServices.Mvc\bin\System.Web.Http.WebHost.xml
+C:\Workspace\Help-desk\C8.eServices.Mvc\bin\System.Web.Mvc.xml
+C:\Workspace\Help-desk\C8.eServices.Mvc\bin\System.Web.Optimization.xml
+C:\Workspace\Help-desk\C8.eServices.Mvc\bin\System.Web.Razor.xml
+C:\Workspace\Help-desk\C8.eServices.Mvc\bin\System.Web.WebPages.xml
+C:\Workspace\Help-desk\C8.eServices.Mvc\bin\System.Web.WebPages.Deployment.xml
+C:\Workspace\Help-desk\C8.eServices.Mvc\bin\System.Web.WebPages.Razor.xml
+C:\Workspace\Help-desk\C8.eServices.Mvc\obj\Debug\C8.eServices.Mvc.csproj.AssemblyReference.cache
+C:\Workspace\Help-desk\C8.eServices.Mvc\obj\Debug\C8.eServices.Mvc.Migrations.account_update.resources
+C:\Workspace\Help-desk\C8.eServices.Mvc\obj\Debug\C8.eServices.Mvc.Migrations.MyNewMigration.resources
+C:\Workspace\Help-desk\C8.eServices.Mvc\obj\Debug\C8.eServices.Mvc.csproj.GenerateResource.cache
+C:\Workspace\Help-desk\C8.eServices.Mvc\obj\Debug\C8.eServices.Mvc.csproj.CoreCompileInputs.cache
+C:\Workspace\Help-desk\C8.eServices.Mvc\obj\Debug\C8.eServices.Mvc.csproj.CopyComplete
+C:\Workspace\Help-desk\C8.eServices.Mvc\obj\Debug\C8.eServices.Mvc.dll
+C:\Workspace\Help-desk\C8.eServices.Mvc\obj\Debug\C8.eServices.Mvc.pdb
+C:\Users\naadi\Desktop\Help-desk (1)\Help-desk\C8.eServices.Mvc\bin\C8.eServices.Mvc.dll.config
+C:\Users\naadi\Desktop\Help-desk (1)\Help-desk\C8.eServices.Mvc\bin\C8.eServices.Mvc.dll
+C:\Users\naadi\Desktop\Help-desk (1)\Help-desk\C8.eServices.Mvc\bin\C8.eServices.Mvc.pdb
+C:\Users\naadi\Desktop\Help-desk (1)\Help-desk\C8.eServices.Mvc\bin\Antlr3.Runtime.dll
+C:\Users\naadi\Desktop\Help-desk (1)\Help-desk\C8.eServices.Mvc\bin\BouncyCastle.Crypto.dll
+C:\Users\naadi\Desktop\Help-desk (1)\Help-desk\C8.eServices.Mvc\bin\Common.Logging.Core.dll
+C:\Users\naadi\Desktop\Help-desk (1)\Help-desk\C8.eServices.Mvc\bin\Common.Logging.dll
+C:\Users\naadi\Desktop\Help-desk (1)\Help-desk\C8.eServices.Mvc\bin\DotNetZip.dll
+C:\Users\naadi\Desktop\Help-desk (1)\Help-desk\C8.eServices.Mvc\bin\Elmah.Contrib.EntityFramework.dll
+C:\Users\naadi\Desktop\Help-desk (1)\Help-desk\C8.eServices.Mvc\bin\Elmah.dll
+C:\Users\naadi\Desktop\Help-desk (1)\Help-desk\C8.eServices.Mvc\bin\Elmah.Mvc.dll
+C:\Users\naadi\Desktop\Help-desk (1)\Help-desk\C8.eServices.Mvc\bin\EntityFramework.dll
+C:\Users\naadi\Desktop\Help-desk (1)\Help-desk\C8.eServices.Mvc\bin\EntityFramework.SqlServer.dll
+C:\Users\naadi\Desktop\Help-desk (1)\Help-desk\C8.eServices.Mvc\bin\EPPlus.dll
+C:\Users\naadi\Desktop\Help-desk (1)\Help-desk\C8.eServices.Mvc\bin\itextsharp.dll
+C:\Users\naadi\Desktop\Help-desk (1)\Help-desk\C8.eServices.Mvc\bin\itextsharp.xmlworker.dll
+C:\Users\naadi\Desktop\Help-desk (1)\Help-desk\C8.eServices.Mvc\bin\JamaaTech.Smpp.Net.Client.dll
+C:\Users\naadi\Desktop\Help-desk (1)\Help-desk\C8.eServices.Mvc\bin\JamaaTech.Smpp.Net.Lib.dll
+C:\Users\naadi\Desktop\Help-desk (1)\Help-desk\C8.eServices.Mvc\bin\MailKit.dll
+C:\Users\naadi\Desktop\Help-desk (1)\Help-desk\C8.eServices.Mvc\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\naadi\Desktop\Help-desk (1)\Help-desk\C8.eServices.Mvc\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\naadi\Desktop\Help-desk (1)\Help-desk\C8.eServices.Mvc\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\naadi\Desktop\Help-desk (1)\Help-desk\C8.eServices.Mvc\bin\Microsoft.Owin.dll
+C:\Users\naadi\Desktop\Help-desk (1)\Help-desk\C8.eServices.Mvc\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\naadi\Desktop\Help-desk (1)\Help-desk\C8.eServices.Mvc\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\naadi\Desktop\Help-desk (1)\Help-desk\C8.eServices.Mvc\bin\Microsoft.Owin.Security.dll
+C:\Users\naadi\Desktop\Help-desk (1)\Help-desk\C8.eServices.Mvc\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\naadi\Desktop\Help-desk (1)\Help-desk\C8.eServices.Mvc\bin\Microsoft.ReportViewer.Common.dll
+C:\Users\naadi\Desktop\Help-desk (1)\Help-desk\C8.eServices.Mvc\bin\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\naadi\Desktop\Help-desk (1)\Help-desk\C8.eServices.Mvc\bin\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\naadi\Desktop\Help-desk (1)\Help-desk\C8.eServices.Mvc\bin\Microsoft.ReportViewer.WebForms.dll
+C:\Users\naadi\Desktop\Help-desk (1)\Help-desk\C8.eServices.Mvc\bin\Microsoft.SharePoint.Client.dll
+C:\Users\naadi\Desktop\Help-desk (1)\Help-desk\C8.eServices.Mvc\bin\Microsoft.SharePoint.Client.Runtime.dll
+C:\Users\naadi\Desktop\Help-desk (1)\Help-desk\C8.eServices.Mvc\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\naadi\Desktop\Help-desk (1)\Help-desk\C8.eServices.Mvc\bin\MimeKit.dll
+C:\Users\naadi\Desktop\Help-desk (1)\Help-desk\C8.eServices.Mvc\bin\MoreLinq.dll
+C:\Users\naadi\Desktop\Help-desk (1)\Help-desk\C8.eServices.Mvc\bin\Newtonsoft.Json.dll
+C:\Users\naadi\Desktop\Help-desk (1)\Help-desk\C8.eServices.Mvc\bin\Owin.dll
+C:\Users\naadi\Desktop\Help-desk (1)\Help-desk\C8.eServices.Mvc\bin\PdfSharp.dll
+C:\Users\naadi\Desktop\Help-desk (1)\Help-desk\C8.eServices.Mvc\bin\RestSharp.dll
+C:\Users\naadi\Desktop\Help-desk (1)\Help-desk\C8.eServices.Mvc\bin\Rotativa.Core.dll
+C:\Users\naadi\Desktop\Help-desk (1)\Help-desk\C8.eServices.Mvc\bin\Rotativa.dll
+C:\Users\naadi\Desktop\Help-desk (1)\Help-desk\C8.eServices.Mvc\bin\System.Linq.Dynamic.dll
+C:\Users\naadi\Desktop\Help-desk (1)\Help-desk\C8.eServices.Mvc\bin\System.Net.Http.Formatting.dll
+C:\Users\naadi\Desktop\Help-desk (1)\Help-desk\C8.eServices.Mvc\bin\System.ValueTuple.dll
+C:\Users\naadi\Desktop\Help-desk (1)\Help-desk\C8.eServices.Mvc\bin\System.Web.Cors.dll
+C:\Users\naadi\Desktop\Help-desk (1)\Help-desk\C8.eServices.Mvc\bin\System.Web.Helpers.dll
+C:\Users\naadi\Desktop\Help-desk (1)\Help-desk\C8.eServices.Mvc\bin\System.Web.Http.Cors.dll
+C:\Users\naadi\Desktop\Help-desk (1)\Help-desk\C8.eServices.Mvc\bin\System.Web.Http.dll
+C:\Users\naadi\Desktop\Help-desk (1)\Help-desk\C8.eServices.Mvc\bin\System.Web.Http.WebHost.dll
+C:\Users\naadi\Desktop\Help-desk (1)\Help-desk\C8.eServices.Mvc\bin\System.Web.Mvc.dll
+C:\Users\naadi\Desktop\Help-desk (1)\Help-desk\C8.eServices.Mvc\bin\System.Web.Optimization.dll
+C:\Users\naadi\Desktop\Help-desk (1)\Help-desk\C8.eServices.Mvc\bin\System.Web.Razor.dll
+C:\Users\naadi\Desktop\Help-desk (1)\Help-desk\C8.eServices.Mvc\bin\System.Web.WebPages.Deployment.dll
+C:\Users\naadi\Desktop\Help-desk (1)\Help-desk\C8.eServices.Mvc\bin\System.Web.WebPages.dll
+C:\Users\naadi\Desktop\Help-desk (1)\Help-desk\C8.eServices.Mvc\bin\System.Web.WebPages.Razor.dll
+C:\Users\naadi\Desktop\Help-desk (1)\Help-desk\C8.eServices.Mvc\bin\WebGrease.dll
+C:\Users\naadi\Desktop\Help-desk (1)\Help-desk\C8.eServices.Mvc\bin\Antlr3.Runtime.pdb
+C:\Users\naadi\Desktop\Help-desk (1)\Help-desk\C8.eServices.Mvc\bin\Common.Logging.pdb
+C:\Users\naadi\Desktop\Help-desk (1)\Help-desk\C8.eServices.Mvc\bin\Common.Logging.xml
+C:\Users\naadi\Desktop\Help-desk (1)\Help-desk\C8.eServices.Mvc\bin\Common.Logging.Core.pdb
+C:\Users\naadi\Desktop\Help-desk (1)\Help-desk\C8.eServices.Mvc\bin\Common.Logging.Core.xml
+C:\Users\naadi\Desktop\Help-desk (1)\Help-desk\C8.eServices.Mvc\bin\DotNetZip.xml
+C:\Users\naadi\Desktop\Help-desk (1)\Help-desk\C8.eServices.Mvc\bin\Elmah.Contrib.EntityFramework.pdb
+C:\Users\naadi\Desktop\Help-desk (1)\Help-desk\C8.eServices.Mvc\bin\EntityFramework.xml
+C:\Users\naadi\Desktop\Help-desk (1)\Help-desk\C8.eServices.Mvc\bin\EntityFramework.SqlServer.xml
+C:\Users\naadi\Desktop\Help-desk (1)\Help-desk\C8.eServices.Mvc\bin\EPPlus.xml
+C:\Users\naadi\Desktop\Help-desk (1)\Help-desk\C8.eServices.Mvc\bin\itextsharp.xml
+C:\Users\naadi\Desktop\Help-desk (1)\Help-desk\C8.eServices.Mvc\bin\JamaaTech.Smpp.Net.Client.pdb
+C:\Users\naadi\Desktop\Help-desk (1)\Help-desk\C8.eServices.Mvc\bin\JamaaTech.Smpp.Net.Lib.pdb
+C:\Users\naadi\Desktop\Help-desk (1)\Help-desk\C8.eServices.Mvc\bin\MailKit.xml
+C:\Users\naadi\Desktop\Help-desk (1)\Help-desk\C8.eServices.Mvc\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\naadi\Desktop\Help-desk (1)\Help-desk\C8.eServices.Mvc\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\naadi\Desktop\Help-desk (1)\Help-desk\C8.eServices.Mvc\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\naadi\Desktop\Help-desk (1)\Help-desk\C8.eServices.Mvc\bin\Microsoft.Owin.xml
+C:\Users\naadi\Desktop\Help-desk (1)\Help-desk\C8.eServices.Mvc\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\naadi\Desktop\Help-desk (1)\Help-desk\C8.eServices.Mvc\bin\Microsoft.Owin.Security.xml
+C:\Users\naadi\Desktop\Help-desk (1)\Help-desk\C8.eServices.Mvc\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\naadi\Desktop\Help-desk (1)\Help-desk\C8.eServices.Mvc\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\naadi\Desktop\Help-desk (1)\Help-desk\C8.eServices.Mvc\bin\MimeKit.xml
+C:\Users\naadi\Desktop\Help-desk (1)\Help-desk\C8.eServices.Mvc\bin\MoreLinq.xml
+C:\Users\naadi\Desktop\Help-desk (1)\Help-desk\C8.eServices.Mvc\bin\Newtonsoft.Json.xml
+C:\Users\naadi\Desktop\Help-desk (1)\Help-desk\C8.eServices.Mvc\bin\RestSharp.xml
+C:\Users\naadi\Desktop\Help-desk (1)\Help-desk\C8.eServices.Mvc\bin\System.Net.Http.Formatting.xml
+C:\Users\naadi\Desktop\Help-desk (1)\Help-desk\C8.eServices.Mvc\bin\System.ValueTuple.xml
+C:\Users\naadi\Desktop\Help-desk (1)\Help-desk\C8.eServices.Mvc\bin\System.Web.Helpers.xml
+C:\Users\naadi\Desktop\Help-desk (1)\Help-desk\C8.eServices.Mvc\bin\System.Web.Http.xml
+C:\Users\naadi\Desktop\Help-desk (1)\Help-desk\C8.eServices.Mvc\bin\System.Web.Http.Cors.xml
+C:\Users\naadi\Desktop\Help-desk (1)\Help-desk\C8.eServices.Mvc\bin\System.Web.Http.WebHost.xml
+C:\Users\naadi\Desktop\Help-desk (1)\Help-desk\C8.eServices.Mvc\bin\System.Web.Mvc.xml
+C:\Users\naadi\Desktop\Help-desk (1)\Help-desk\C8.eServices.Mvc\bin\System.Web.Optimization.xml
+C:\Users\naadi\Desktop\Help-desk (1)\Help-desk\C8.eServices.Mvc\bin\System.Web.Razor.xml
+C:\Users\naadi\Desktop\Help-desk (1)\Help-desk\C8.eServices.Mvc\bin\System.Web.WebPages.xml
+C:\Users\naadi\Desktop\Help-desk (1)\Help-desk\C8.eServices.Mvc\bin\System.Web.WebPages.Deployment.xml
+C:\Users\naadi\Desktop\Help-desk (1)\Help-desk\C8.eServices.Mvc\bin\System.Web.WebPages.Razor.xml
+C:\Users\naadi\Desktop\Help-desk (1)\Help-desk\C8.eServices.Mvc\obj\Debug\C8.eServices.Mvc.csproj.AssemblyReference.cache
+C:\Users\naadi\Desktop\Help-desk (1)\Help-desk\C8.eServices.Mvc\obj\Debug\C8.eServices.Mvc.Migrations.account_update.resources
+C:\Users\naadi\Desktop\Help-desk (1)\Help-desk\C8.eServices.Mvc\obj\Debug\C8.eServices.Mvc.Migrations.MyNewMigration.resources
+C:\Users\naadi\Desktop\Help-desk (1)\Help-desk\C8.eServices.Mvc\obj\Debug\C8.eServices.Mvc.csproj.GenerateResource.cache
+C:\Users\naadi\Desktop\Help-desk (1)\Help-desk\C8.eServices.Mvc\obj\Debug\C8.eServices.Mvc.csproj.CoreCompileInputs.cache
+C:\Users\naadi\Desktop\Help-desk (1)\Help-desk\C8.eServices.Mvc\obj\Debug\C8.eServices.Mvc.csproj.CopyComplete
+C:\Users\naadi\Desktop\Help-desk (1)\Help-desk\C8.eServices.Mvc\obj\Debug\C8.eServices.Mvc.dll
+C:\Users\naadi\Desktop\Help-desk (1)\Help-desk\C8.eServices.Mvc\obj\Debug\C8.eServices.Mvc.pdb
+C:\Workspace\HelpDesk\C8.eServices.Mvc\bin\C8.eServices.Mvc.dll.config
+C:\Workspace\HelpDesk\C8.eServices.Mvc\bin\C8.eServices.Mvc.dll
+C:\Workspace\HelpDesk\C8.eServices.Mvc\bin\C8.eServices.Mvc.pdb
+C:\Workspace\HelpDesk\C8.eServices.Mvc\bin\Antlr3.Runtime.dll
+C:\Workspace\HelpDesk\C8.eServices.Mvc\bin\BouncyCastle.Crypto.dll
+C:\Workspace\HelpDesk\C8.eServices.Mvc\bin\Common.Logging.Core.dll
+C:\Workspace\HelpDesk\C8.eServices.Mvc\bin\Common.Logging.dll
+C:\Workspace\HelpDesk\C8.eServices.Mvc\bin\DotNetZip.dll
+C:\Workspace\HelpDesk\C8.eServices.Mvc\bin\Elmah.Contrib.EntityFramework.dll
+C:\Workspace\HelpDesk\C8.eServices.Mvc\bin\Elmah.dll
+C:\Workspace\HelpDesk\C8.eServices.Mvc\bin\Elmah.Mvc.dll
+C:\Workspace\HelpDesk\C8.eServices.Mvc\bin\EntityFramework.dll
+C:\Workspace\HelpDesk\C8.eServices.Mvc\bin\EntityFramework.SqlServer.dll
+C:\Workspace\HelpDesk\C8.eServices.Mvc\bin\EPPlus.dll
+C:\Workspace\HelpDesk\C8.eServices.Mvc\bin\itextsharp.dll
+C:\Workspace\HelpDesk\C8.eServices.Mvc\bin\itextsharp.xmlworker.dll
+C:\Workspace\HelpDesk\C8.eServices.Mvc\bin\JamaaTech.Smpp.Net.Client.dll
+C:\Workspace\HelpDesk\C8.eServices.Mvc\bin\JamaaTech.Smpp.Net.Lib.dll
+C:\Workspace\HelpDesk\C8.eServices.Mvc\bin\MailKit.dll
+C:\Workspace\HelpDesk\C8.eServices.Mvc\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Workspace\HelpDesk\C8.eServices.Mvc\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Workspace\HelpDesk\C8.eServices.Mvc\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Workspace\HelpDesk\C8.eServices.Mvc\bin\Microsoft.Owin.dll
+C:\Workspace\HelpDesk\C8.eServices.Mvc\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Workspace\HelpDesk\C8.eServices.Mvc\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Workspace\HelpDesk\C8.eServices.Mvc\bin\Microsoft.Owin.Security.dll
+C:\Workspace\HelpDesk\C8.eServices.Mvc\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Workspace\HelpDesk\C8.eServices.Mvc\bin\Microsoft.ReportViewer.Common.dll
+C:\Workspace\HelpDesk\C8.eServices.Mvc\bin\Microsoft.ReportViewer.DataVisualization.dll
+C:\Workspace\HelpDesk\C8.eServices.Mvc\bin\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Workspace\HelpDesk\C8.eServices.Mvc\bin\Microsoft.ReportViewer.WebForms.dll
+C:\Workspace\HelpDesk\C8.eServices.Mvc\bin\Microsoft.SharePoint.Client.dll
+C:\Workspace\HelpDesk\C8.eServices.Mvc\bin\Microsoft.SharePoint.Client.Runtime.dll
+C:\Workspace\HelpDesk\C8.eServices.Mvc\bin\Microsoft.Web.Infrastructure.dll
+C:\Workspace\HelpDesk\C8.eServices.Mvc\bin\MimeKit.dll
+C:\Workspace\HelpDesk\C8.eServices.Mvc\bin\MoreLinq.dll
+C:\Workspace\HelpDesk\C8.eServices.Mvc\bin\Newtonsoft.Json.dll
+C:\Workspace\HelpDesk\C8.eServices.Mvc\bin\Owin.dll
+C:\Workspace\HelpDesk\C8.eServices.Mvc\bin\PdfSharp.dll
+C:\Workspace\HelpDesk\C8.eServices.Mvc\bin\RestSharp.dll
+C:\Workspace\HelpDesk\C8.eServices.Mvc\bin\Rotativa.Core.dll
+C:\Workspace\HelpDesk\C8.eServices.Mvc\bin\Rotativa.dll
+C:\Workspace\HelpDesk\C8.eServices.Mvc\bin\System.Linq.Dynamic.dll
+C:\Workspace\HelpDesk\C8.eServices.Mvc\bin\System.Net.Http.Formatting.dll
+C:\Workspace\HelpDesk\C8.eServices.Mvc\bin\System.ValueTuple.dll
+C:\Workspace\HelpDesk\C8.eServices.Mvc\bin\System.Web.Cors.dll
+C:\Workspace\HelpDesk\C8.eServices.Mvc\bin\System.Web.Helpers.dll
+C:\Workspace\HelpDesk\C8.eServices.Mvc\bin\System.Web.Http.Cors.dll
+C:\Workspace\HelpDesk\C8.eServices.Mvc\bin\System.Web.Http.dll
+C:\Workspace\HelpDesk\C8.eServices.Mvc\bin\System.Web.Http.WebHost.dll
+C:\Workspace\HelpDesk\C8.eServices.Mvc\bin\System.Web.Mvc.dll
+C:\Workspace\HelpDesk\C8.eServices.Mvc\bin\System.Web.Optimization.dll
+C:\Workspace\HelpDesk\C8.eServices.Mvc\bin\System.Web.Razor.dll
+C:\Workspace\HelpDesk\C8.eServices.Mvc\bin\System.Web.WebPages.Deployment.dll
+C:\Workspace\HelpDesk\C8.eServices.Mvc\bin\System.Web.WebPages.dll
+C:\Workspace\HelpDesk\C8.eServices.Mvc\bin\System.Web.WebPages.Razor.dll
+C:\Workspace\HelpDesk\C8.eServices.Mvc\bin\WebGrease.dll
+C:\Workspace\HelpDesk\C8.eServices.Mvc\bin\Antlr3.Runtime.pdb
+C:\Workspace\HelpDesk\C8.eServices.Mvc\bin\Common.Logging.pdb
+C:\Workspace\HelpDesk\C8.eServices.Mvc\bin\Common.Logging.xml
+C:\Workspace\HelpDesk\C8.eServices.Mvc\bin\Common.Logging.Core.pdb
+C:\Workspace\HelpDesk\C8.eServices.Mvc\bin\Common.Logging.Core.xml
+C:\Workspace\HelpDesk\C8.eServices.Mvc\bin\DotNetZip.xml
+C:\Workspace\HelpDesk\C8.eServices.Mvc\bin\Elmah.Contrib.EntityFramework.pdb
+C:\Workspace\HelpDesk\C8.eServices.Mvc\bin\EntityFramework.xml
+C:\Workspace\HelpDesk\C8.eServices.Mvc\bin\EntityFramework.SqlServer.xml
+C:\Workspace\HelpDesk\C8.eServices.Mvc\bin\EPPlus.xml
+C:\Workspace\HelpDesk\C8.eServices.Mvc\bin\itextsharp.xml
+C:\Workspace\HelpDesk\C8.eServices.Mvc\bin\JamaaTech.Smpp.Net.Client.pdb
+C:\Workspace\HelpDesk\C8.eServices.Mvc\bin\JamaaTech.Smpp.Net.Lib.pdb
+C:\Workspace\HelpDesk\C8.eServices.Mvc\bin\MailKit.xml
+C:\Workspace\HelpDesk\C8.eServices.Mvc\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Workspace\HelpDesk\C8.eServices.Mvc\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Workspace\HelpDesk\C8.eServices.Mvc\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Workspace\HelpDesk\C8.eServices.Mvc\bin\Microsoft.Owin.xml
+C:\Workspace\HelpDesk\C8.eServices.Mvc\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Workspace\HelpDesk\C8.eServices.Mvc\bin\Microsoft.Owin.Security.xml
+C:\Workspace\HelpDesk\C8.eServices.Mvc\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Workspace\HelpDesk\C8.eServices.Mvc\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Workspace\HelpDesk\C8.eServices.Mvc\bin\MimeKit.xml
+C:\Workspace\HelpDesk\C8.eServices.Mvc\bin\MoreLinq.xml
+C:\Workspace\HelpDesk\C8.eServices.Mvc\bin\Newtonsoft.Json.xml
+C:\Workspace\HelpDesk\C8.eServices.Mvc\bin\RestSharp.xml
+C:\Workspace\HelpDesk\C8.eServices.Mvc\bin\System.Net.Http.Formatting.xml
+C:\Workspace\HelpDesk\C8.eServices.Mvc\bin\System.ValueTuple.xml
+C:\Workspace\HelpDesk\C8.eServices.Mvc\bin\System.Web.Helpers.xml
+C:\Workspace\HelpDesk\C8.eServices.Mvc\bin\System.Web.Http.xml
+C:\Workspace\HelpDesk\C8.eServices.Mvc\bin\System.Web.Http.Cors.xml
+C:\Workspace\HelpDesk\C8.eServices.Mvc\bin\System.Web.Http.WebHost.xml
+C:\Workspace\HelpDesk\C8.eServices.Mvc\bin\System.Web.Mvc.xml
+C:\Workspace\HelpDesk\C8.eServices.Mvc\bin\System.Web.Optimization.xml
+C:\Workspace\HelpDesk\C8.eServices.Mvc\bin\System.Web.Razor.xml
+C:\Workspace\HelpDesk\C8.eServices.Mvc\bin\System.Web.WebPages.xml
+C:\Workspace\HelpDesk\C8.eServices.Mvc\bin\System.Web.WebPages.Deployment.xml
+C:\Workspace\HelpDesk\C8.eServices.Mvc\bin\System.Web.WebPages.Razor.xml
+C:\Workspace\HelpDesk\C8.eServices.Mvc\obj\Debug\C8.eServices.Mvc.csproj.AssemblyReference.cache
+C:\Workspace\HelpDesk\C8.eServices.Mvc\obj\Debug\C8.eServices.Mvc.Migrations.account_update.resources
+C:\Workspace\HelpDesk\C8.eServices.Mvc\obj\Debug\C8.eServices.Mvc.Migrations.MyNewMigration.resources
+C:\Workspace\HelpDesk\C8.eServices.Mvc\obj\Debug\C8.eServices.Mvc.Migrations.Prop.resources
+C:\Workspace\HelpDesk\C8.eServices.Mvc\obj\Debug\C8.eServices.Mvc.csproj.GenerateResource.cache
+C:\Workspace\HelpDesk\C8.eServices.Mvc\obj\Debug\C8.eServices.Mvc.csproj.CoreCompileInputs.cache
+C:\Workspace\HelpDesk\C8.eServices.Mvc\obj\Debug\C8.eServices.Mvc.csproj.CopyComplete
+C:\Workspace\HelpDesk\C8.eServices.Mvc\obj\Debug\C8.eServices.Mvc.dll
+C:\Workspace\HelpDesk\C8.eServices.Mvc\obj\Debug\C8.eServices.Mvc.pdb

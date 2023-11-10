@@ -1,0 +1,137 @@
+﻿@model C8.eServices.Mvc.Models.Incident
+<!doctype html>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Onboarding/OnboardigRequest.cshtml";
+}
+
+<h2>Index</h2>
+
+<style>
+    .ticket-card {
+        width: 300px;
+        background-color: #f5f5f5;
+        border-radius: 5px;
+        padding: 10px;
+        margin-bottom: 10px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease-in-out;
+    }
+
+        .ticket-card:hover {
+            transform: translateY(-5px);
+        }
+</style>
+
+<div class="tab-content tab-bordered padding-20 card">
+
+    <h2 style="color:black">Logged Tickets</h2>
+
+    <br />
+    <br />
+    <br />
+    @*<p>
+            @Html.ActionLink("Create New", "Create")
+        </p>*@
+
+
+<table class="table ticket-card " id="ticket-container">
+    <tr>
+        <th>@Html.Raw("Reference No.")</th>
+        <th>@Html.Raw("Ticket Caller")</th>
+        <th>@Html.Raw("Captured By User")</th>
+        <th>@Html.Raw("Status")</th>
+        <th>@Html.Raw("Product")</th>
+        <th>@Html.Raw("Category")</th>
+        <th>@Html.Raw("Sub-Category")</th>
+        <th></th>
+    </tr>
+
+    @*@@foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.Raw(item.Reference)</td>
+
+                <td>@Html.Raw(item.IsCallerTicket)</td>
+                <td> @Html.Raw(item.CapturedByUser.FullName)</td>
+                <td> @Html.Raw(item.Status.Name)</td>
+                <td> @Html.Raw(item.Product.Name)</td>
+                <td> @Html.Raw(item.Category.Name)</td>
+                <td> @Html.Raw(item.SubCategory.Name)</td>
+
+
+
+
+
+
+
+
+                @*<td>
+                        @Html.DisplayFor(modelItem => item.IsActive)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.IsDeleted)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.IsLocked)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.CreatedBySystemUserId)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.CreatedDateTime)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ModifiedBySystemUserId)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ModifiedDateTime)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.MMUID)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Data)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Subject)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Description)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.URL)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.IsCallerTicket)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.CapturedByUserId)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.StatusId)
+                    </td>*@
+    @*<td>
+            @Html.DisplayFor(modelItem => item.Reference)
+        </td>*@
+    @*<td>
+            @Html.DisplayFor(modelItem => item.ProductId)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SubCategoryId)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CategoryId)
+        </td>*@
+    @*<td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |
+            @Html.ActionLink("Details", "Details", new { id=item.Id }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.Id })
+        </td>*@
+    </tr>
+    }
+</table>
+</div>
+
+
+

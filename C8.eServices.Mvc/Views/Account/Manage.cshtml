@@ -1,0 +1,66 @@
+﻿@using C8.eServices.Mvc.ViewModels;
+@{
+    Layout = "~/Views/Shared/_LayoutPage.cshtml";
+    ViewBag.Title = "Manage Account";
+}
+
+<head>
+    <link href="~/assets/libs/jsvectormap/css/jsvectormap.min.css" rel="stylesheet" type="text/css" />
+    <link href="~/assets/css/bootstrap.min.css" id="bootstrap-style" rel="stylesheet" type="text/css" />
+    <link href="~/assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+    <link href="~/assets/css/app.min.css" id="app-style" rel="stylesheet" type="text/css" />
+
+
+    <link href="~/assets/libs/choices.js/public/assets/styles/choices.min.css" rel="stylesheet" type="text/css" />
+    <link href="~/assets/libs/flatpickr/flatpickr.min.css" rel="stylesheet">
+
+     One of the following themes 
+    <link rel="stylesheet" href="~/assets/libs/simonwep/pickr/themes/classic.min.css" />  'classic' theme 
+    @*<link rel="stylesheet" href="~/assets/libs/simonwep/pickr/themes/monolith.min.css" />  'monolith' theme 
+    <link rel="stylesheet" href="~/assets/libs/simonwep/pickr/themes/nano.min.css" />  'nano' theme*@ 
+</head>
+
+<style type="text/css">
+    .validation-summary-errors {
+        color: red;
+        font-style: italic;
+    }
+</style>
+<div class="row main-content">
+    <div class="col-md-12">
+          @if (ViewBag.Chk != null)
+        {
+           
+        }
+        @if (ViewBag.HasLocalPassword)
+        {
+            @Html.Partial("_ManageAccountPartial")
+        }
+        @*else
+        {
+            @Html.Partial("_SetPasswordPartial")
+        }*@
+    </div>
+</div>
+<script type="text/javascript">
+    var result = '@ViewBag.StatusMessage';
+   
+    if (result != '' || result != null) {
+        bootbox.confirm({
+            message: result,
+            buttons: {
+                confirm: {
+                    label: '<i class="fa fa-check"></i> Ok',
+                    className: 'btn-primary'
+                },
+                cancel: {
+                    className: 'btn-primary'
+                }
+            },
+            closeButton: false,
+            callback: function (confirmed) {
+                window.location.href = '@Url.Action("Index", "Profile")';
+            }
+        });
+    }
+</script>
