@@ -3,23 +3,32 @@
 ## Introduction
 The Helpdesk POC System, developed for XET Group, is designed to streamline incident logging, management, and resolution, enhancing support efficiency for both users and administrators. This document provides an overview of the system, including its main functionalities, use cases, and system requirements.
 
+## Summary
+- Welcome to the Helpdesk System repository! This project is a collaborative effort to create a robust and user-friendly helpdesk solution. Currently a work in progress, the system is designed to streamline user interactions, manage support tickets, and enhance overall efficiency in handling customer issues.
+
 ## Features
-- **Incident Management**: Log, track, and manage incidents with ease, featuring automated SLA assignment based on incident priority. 
-- **User and Client Management**: Onboard new clients, manage user accounts, and assign roles within the system.
-- **Product Management**: Create and manage products, assign products to clients, and link product resources to XET employees.
-- **Authentication**: Secure login mechanism with password reset functionalities for all system users.
-- **Master Data Management**: Manage categories, subcategories, priorities, and SLAs to ensure incidents are categorized accurately for effective resolution.
+User Authentication
+- Secure Login: Users can securely log in to the system, ensuring that only authorized personnel can access sensitive information.
+Ticket Management
+- Log a Ticket: Users can easily log support tickets, providing a detailed description of their issues for efficient resolution.
+- SLA Period: Tickets can be assigned a Service Level Agreement (SLA) period, ensuring timely responses and resolutions based on priority.
+Product Management
+- Add Products: Easily manage a list of products that the helpdesk system supports, facilitating accurate ticket categorization.
+Developer Assignment
+- Assign Developers: Efficiently assign support tickets to designated developers, ensuring accountability and optimal resource utilization.
+Dashboard (Work in Progress)
+- Visual Insights: Gain insights into ticket status, developer workload, and other key metrics through an intuitive dashboard (currently under development).
+Work in Progress
+This project is continuously evolving, and we have exciting features in the pipeline, including but not limited to:
 
-## Use Cases
-- **Logging Incidents (UC12)**: Users can log incidents, upload relevant documents, and receive automatic updates on incident status and SLA.
-- **User Registration for Clients (UC07)**: System administrators can create new user accounts linked to clients, complete with automated email notifications for account details.
-- **Adding XET Employees (UC08)**: Assign roles to XET employees and manage their access within the helpdesk system.
-- **Managing Current Users (UC10)**: Update or remove user accounts to maintain the system's integrity and security.
-- **Managing Master Data (UC11)**: Create and edit categories, subcategories, priorities, and SLAs to keep the incident management process streamlined.
+## Enhanced Dashboard: A comprehensive dashboard for real-time insights and analytics.
+- User Roles: Implementing role-based access control for different levels of system access.
+- Notification System: Keeping users informed with timely updates on ticket status and system events.
 
-## Technical Requirements
-- **Programming Languages**: C#, .Net.
-- **Database**: MSSQL.
+## Technologies Used
+- Frontend: CSS/HTML/JAVASCRIPT
+- Backend: C#
+- Database: MSSQL 
 
 
 
